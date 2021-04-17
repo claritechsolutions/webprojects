@@ -1,0 +1,120 @@
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+.newsletter {
+    padding: 80px 0;
+    background:  #5FC7AE;
+    }
+    
+  .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+ .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+        .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
+.single-footer {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+.pt-98{
+    padding-top: 98px;
+}
+
+.single-footer a {
+    color: #5fc7ae;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.bg-gray {
+    background: #F1F1F1;
+}
+.bg-3 {
+    background-image: url(../../img/footer/1.jpg);
+    background-position: 55% bottom;
+}
+.container{
+    width: 1200px;
+}
+.single-footer > h3 {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-area{
+    height: 143px;
+    width: 400px;
+}
+.single-footer button, .contact-form button {
+    background: #5FC7AE none repeat scroll 0 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 70px;
+    border: 1px solid #5FC7AE;
+}
+.single-footer textarea{
+    height: 90px;
+}
+.single-footer input{
+    
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    height: 30px;
+    padding-left: 17px;
+    width: 100%;
+    box-shadow: none;
+    color: #969696;
+    font-size: 14px
+}
+.single-footer textarea{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+   
+}
+.footer-text-area {
+    background: #5FC7AE none repeat scroll 0 0;
+}
+.ptb-18 {
+    padding: 18px 0;
+}
+.footer-text{
+    text-align: center;
+}

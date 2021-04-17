@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <section ng-controller="MapCtrl">
+        <ion-header-bar class="bar-dark" >
+          <h1 class="title">Map</h1>
+        </ion-header-bar>
+        <ion-content>
+          <div id="map" data-tap-disabled="true"></div>
+        </ion-content>
+        <ion-footer-bar class="bar-dark">
+          <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate">Find Me</a>
+        </ion-footer-bar>
+      </section>
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h2>Subscribe Now For Latest Update! </h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit">Submit</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-area-section bg-gray">
+        <footer class="footer-area">
+            <div class="footer-area-width pt-98 pb-90 fix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                            <div class="single-footer">
+                                <a href="footer.html">
+                                    <img src="asset\img\logo.png" alt="Handstand">
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a convallis nulla.
+                                    Ut
+                                </p>
+                                <ul>
+                                    <li><i class="fa fa-envelope-o"></i>&nbsp; username@gmail.com</li><br>
+                                    <li><i class="fa fa-phone"></i>&nbsp; (+660 256 24857)</li><br>
+                                    <li><i class="fa fa-home"></i> &nbsp; Your Address Here </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+                            <div class="single-footer">
+                                <h3>Recent Tweets</h3>
+                                <ul>
+                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
+                                        templete weekly top selling quality template in technology category !!! <br>
+                                        <a href="#">https://twitter.com/login</a>
+                                    </li><br>
+                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
+                                        templete weekly top selling quality template in technology category !!! <br>
+                                        <a href="#">https://twitter.com/login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4col-xs-12">
+                            <div class="single-footer">
+                                <h3>get in touch</h3>
+                                <form id="contact-form" action="mail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-sm-6 ">
+                                            <input type="text" placeholder="Name" name="name">
+                                        </div>
+                                        <div class="col-sm-6 ">
+                                            <input type="text" placeholder="Email" name="email">
+                                        </div>
+                                        <div class="col-sm-12 mb-3">
+                                            <div class="form-group textarea">
+                                                <label class="required-field" for="message"></label>
+                                                <textarea class="form-control" id="message" name="message" rows="4"
+                                                    placeholder="subject"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 mb-3 ">
+                                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-text-area bg-coffee ptb-18">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="footer-text">
+                                <span>Copyright &copy;<a href="#">Hastech</a>2017. All Rights Reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </section>
+
+</body>
+
+</html>

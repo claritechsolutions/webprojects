@@ -6,84 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class || Handstand</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/classstyle.css">
+    <link rel="icon" href="asset/images/flower.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        #img1,#img2,#img3{
+            transition: transform 3s;
+        }
+        #img1:hover{
+            transform: scale(1.1);
+            
+            cursor: zoom-in;
+            
+        }
+        #img2:hover{
+            transform: scale(1.1);
+            cursor: zoom-in;
+        }
+        #img3:hover{
+            transform: scale(0.9);
+            cursor: zoom-out;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="header-section">
-        <!-- Header Area Start -->
-        <header class="top">
-            <div class="header-area ptb-18 header-sticky">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2 col-xs-12">
-                            <div class="logo">
-                                <a href="index.html"><img src="asset/images/logo.png" alt="COFFEE" /></a>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-xs-12">
-                            <div class="content-wrapper">
-                                <!-- Main Menu Start -->
-                                <div class="main-menu text-center">
-                                    <nav>
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="menu.html">classes</a></li>
-                                            <li><a href="reservation.html">gallery</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="mobile-menu hidden-lg hidden-md"></div>
-                                <!-- Main Menu End -->
-                            </div>
-                        </div>
-                        <div class="col-md-2 hidden-sm hidden-xs">
-                            <div class="header-contact text-right">
-                                <a class="banner-btn" data-text="contact" href="contact.html"><span>contact</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
-    <section>
-
-
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="asset/images/slider1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="asset/images/slider2.jpg" alt="Second slide">
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </section>
     <section class="bg-light">
         <div class="container">
             <h1 class="text-center text-capitalize pt-5">our classes</h1>
-            <p class="py-2">Yoga is essentially a spiritual discipline based on an extremely subtle science, which
+            <p class="py-2 text-dark">Yoga is essentially a spiritual discipline based on an extremely subtle science, which
                 focuses on
                 bringing harmony between mind and body. It is an art and scince of healthy living. The word 'Yoga' is
                 derived from the Sanskrit root 'Yuj', meaning 'to join' or 'to yoke' or 'to unite</p>
             <div class="row mt-5">
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="asset/images/1.jpg" alt="Card image cap">
+                        <img class="card-img-top" id="img1"  src="asset/images/1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Yoga For Climbers</h5>
                             <p class="card-text">Minakshi Dhaigude 10.00 A.M-5.00 P.M</p>
@@ -94,7 +53,7 @@
 
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="asset/images/2.jpg" alt="Card image cap">
+                        <img class="card-img-top" id="img2"  src="asset/images/2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Yoga For Climbers</h5>
                             <p class="card-text">Minakshi Dhaigude 10.00 A.M-5.00 P.M</p>
@@ -105,7 +64,7 @@
 
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="asset/images/3.jpg" alt="Card image cap">
+                        <img class="card-img-top" id="img3"  src="asset/images/3.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Yoga For Climbers</h5>
                             <p class="card-text">Minakshi Dhaigude 10.00 A.M-5.00 P.M</p>
@@ -115,8 +74,8 @@
                 </div>
             </div>
 
-            <div class="container  my-5">
-                <a class="btn btn-outline-info btn-lg ml-5 mb-5" href="#" role="button">VIEW ALL CLASSES</a>
+            <div class="container text-center my-5">
+                <a class="btn btn-outline-info btn-lg ml-5 mb-5 " href="#" role="button">VIEW ALL CLASSES</a>
             </div>
         </div>
     </section>
@@ -197,200 +156,90 @@
                 focuses on
                 bringing harmony between mind and body. It is an art and scince of healthy living. The word 'Yoga' is
                 derived from the Sanskrit root 'Yuj', meaning 'to join' or 'to yoke' or 'to unite</p>
-
+        
             <div class="row">
                 <div class="col-4">
-                    <img class="img-thumbnail" src="asset/images/trainer1.jpg">
+                  <img class="img-thumbnail" id="img1" src="asset/images/trainer1.jpg">
                 </div>
                 <div class="col-4 ">
-                    <img class="img-thumbnail" src="asset/images/trainer2.jpg">
-                </div>
-                <div class="col-4">
-                    <img class="img-thumbnail" src="asset/images/trainer3.jpg">
-                </div>
+                    <img class="img-thumbnail" id="img2" src="asset/images/trainer2.jpg">
+                  </div>
+                  <div class="col-4">
+                    <img class="img-thumbnail" id="img3"  src="asset/images/trainer3.jpg">
+                  </div>
 
             </div>
-
         </div>
     </section>
-
-    <!-- Prising Content -->
-    <section class="bg">
-        <section>
-            <div class="container">
-                <h1 class="text-center text-capitalize pt-5">Pricing Table</h1>
-                <p class="py-2">It is a long established fact that a reader will be distracted by the readable content
-                    of
-                    a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
-                    normal distribution of letters,
-                    as opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
+    
+    
+    <!--footer-section-->
+    <section>
+        <footer class="ftr">
+            <div class="container ftr ">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 first-block1">
-                        <div class="table-head">
-                            <h2>SILVER PACKAGE</h2>
-                            <div class="firstblock">
-                                <h1>$30</h1>
-                                <span><small><sub>/MONTH</sub></small></span>
-                            </div>
-                        </div>
-                        <div class="table-body">
-                            <ul>
-                                <li>Free T-shirts and swags</li><br>
-                                <li>free of all messages treatments</li><br>
-                                <li>Access Club Facilities</li><br>
-                                <li>Out Door activities</li><br>
-                            </ul>
-                            <a href="#">GET STARTED</a>
-                        </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 footer1">
+                        <img src="asset/images/logo.png" alt="">
+                        <p class="mt-2">Yoga is essentially a spiritual discipline based on an extremely subtle science,
+                            which focuses on
+                            bringing harmony between mind and body.</p>
+                        <ul class="list-unstyled">
+                            <li class="my-2"><i class="fa fa-envelope mr-4"></i>username@gmail.com</li>
+                            <li class="my-2"><i class="fa fa-phone-square mr-4"></i>+1234567890</li>
+                            <li class="my-2"><i class="fa fa-home mr-4"></i>Your Address Here</li>
+                        </ul>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 first-block2">
-                        <div class="table-head">
-                            <h2>GOLD PACKAGE</h2>
-                            <div class="firstblock">
-                                <h1>$50</h1>
-                                <span><small><sub>/MONTH</sub></small></span>
+                    <div class="col-md-4 col-sm-12 col-lg-4 my-3 mt-3 footer2">
+                        <h3>RECENT TWEETS</h3>
+                        <div class="icon-content">
+                            <div class="icon"><i class="fa fa-twitter-square mr-2"></i></div>
+                            <div class="content">
+                                <p>@envato good News for today!! We got 2 psd
+                                    templete weekly top selling quality template in technology category !!!</p>
+                                <a href="https://twitter.com/login/">https://twitter.com/login</a>
                             </div>
                         </div>
-                        <div class="table-body">
-                            <ul>
-                                <li>Free T-shirts and swags</li><br>
-                                <li>free of all messages treatments</li><br>
-                                <li>Access Club Facilities</li><br>
-                                <li>Out Door activities</li><br>
-                            </ul>
-                            <a href="#">GET STARTED</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 first-block3">
-                        <div class="table-head">
-                            <h2>PLATINUM PACKAGE</h2>
-                            <div class="firstblock">
-                                <h1>$70</h1>
-                                <span><small><sub>/MONTH</sub></small></span>
-                            </div>
-                        </div>
-                        <div class="table-body">
-                            <ul>
-                                <li>Free T-shirts and swags</li><br>
-                                <li>free of all messages treatments</li><br>
-                                <li>Access Club Facilities</li><br>
-                                <li>Out Door activities</li><br>
-                            </ul>
-                            <a href="#">GET STARTED</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-    <!-- map added -->
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.3973758517936!2d75.32432651470762!3d17.67867848790458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4181da73afe69%3A0xa711f0cdd1c23150!2sPandharpur%20Bus%20Stand%20MSRTC!5e0!3m2!1sen!2sin!4v1618809804490!5m2!1sen!2sin"
-        width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <section class="newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="content">
-                        <h2>Subscribe Now For Latest Update! </h2>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn" type="submit">Submit</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer section -->
-    <section class="footer-area-section bg-gray">
-        <footer class="footer-area">
-            <div class="footer-area-width pt-98 pb-90 fix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
-                            <div class="single-footer">
-                                <a href="footer.html">
-                                    <img src="./asset/images/logo.png" alt="Handstand">
-                                </a><br><br>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a convallis nulla.
-                                    Ut
-                                </p>
-                                <ul>
-                                    <li><i class="fa fa-envelope-o"></i>&nbsp; username@gmail.com</li><br>
-                                    <li><i class="fa fa-phone"></i>&nbsp; (+660 256 24857)</li><br>
-                                    <li><i class="fa fa-home"></i> &nbsp; Your Address Here </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
-                            <div class="single-footer">
-                                <h3>Recent Tweets</h3>
-                                <ul>
-                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
-                                        templete weekly top selling quality template in technology category !!! <br>
-                                        <a href="#">https://twitter.com/login</a>
-                                    </li><br>
-                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
-                                        templete weekly top selling quality template in technology category !!! <br>
-                                        <a href="#">https://twitter.com/login</a>
-                                    </li>
-                                </ul>
-                            </div>
 
-                        </div>
-                        <div class="col-lg-4 col-sm-6 col-md-4col-xs-12">
-                            <div class="single-footer">
-                                <h3>get in touch</h3>
-                                <form id="contact-form" action="mail.php" method="post">
-                                    <div class="row">
-                                        <div class="col-sm-6 ">
-                                            <input type="text" placeholder="Name" name="name">
-                                        </div>
-                                        <div class="col-sm-6 ">
-                                            <input type="text" placeholder="Email" name="email">
-                                        </div>
-                                        <div class="col-sm-12 mb-3">
-                                            <div class="form-group textarea">
-                                                <label class="required-field" for="message"></label>
-                                                <textarea class="form-control" id="message" name="message" rows="4"
-                                                    placeholder="subject"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 mb-3 ">
-                                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-                                        </div>
-                                    </div>
-                                </form>
+                        <div class="icon-content">
+                            <div class="icon"><i class="fa fa-twitter-square mr-2"></i></div>
+                            <div class="content">
+                                <p>div@envato good News for today!! We got 2
+                                    psd templete weekly top selling quality template in technology category !!!</p>
+                                <a href="https://twitter.com/login/">https://twitter.com/login</a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="footer-text-area bg-coffee ptb-18">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="footer-text">
-                                <span>Copyright &copy;<a href="#">Hastech</a>2017. All Rights Reserved.</span>
+                    <div class="col-md-4 col-sm-12 col-lg-4 mt-3 footer3">
+                        <h3>GET IN TOUCH</h3>
+                        <form action="">
+                            <div class="row  mt-3">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Name" id="name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email" id="email">
+                                </div>
+                            </div><br>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Subject"
+                                    rows="2"></textarea>
                             </div>
-                        </div>
+                            <button>Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </footer>
+    </section>
+
+    <div class="footer-copyright text-center" style="background-color:#20c997">
+        <p>Copyright © <a class="text-white" href=""> Hastech</a> 2017. All Rights Reserved.</p>
+    </div>
 
 
-        <script src="js/jQuery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

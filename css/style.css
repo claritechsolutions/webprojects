@@ -749,19 +749,14 @@ td.pink{background: #FF91B8}
             padding: 0 15px;
             background: #62C1AA;
             border: none;
-            height: 45px;
-        
+            height: 45px;       
     }
-    .container{
-        position: relative;
     }
     .newsletter{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-    
-     
+        transform: translate(-50%, -50%);  
     }
 .single-footer {
     color: #7f7f7f;
@@ -771,14 +766,12 @@ td.pink{background: #FF91B8}
     line-height: normal;
     font-family: 'Lato', sans-serif;
 }
-
 .pb-90 {
     padding-bottom: 90px;
 }
 .pt-98{
     padding-top: 200px;
 }
-
 .single-footer a {
     color: #5fc7ae;
     font-size: 14px;
@@ -805,9 +798,6 @@ td.pink{background: #FF91B8}
         background-position: 55% bottom;
 }
 
-.container{
-    width: 1200px;
-}
 /* footer sections */
 .single-footer > h3 {
     color: #757575;
@@ -867,19 +857,11 @@ td.pink{background: #FF91B8}
 /*  14. AboutUs section
 /*----------------------------------------*/
 
-/* .container {
-    position: relative;
-    text-align: center;
-    color: rgb(5, 3, 3);
-      }
-   */
   .bottom-left {
     position: absolute;
     bottom: 10px;
     left: 16px;
-   
   }
- 
 h1 p{
     float: left;
     width: 40px;
@@ -917,13 +899,10 @@ ul.breadcrumb li+li:before {
     padding: 8px;
     content: ">\00a0";
 }
-
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     padding-bottom: 20px;
- 
-
   }
   ul.breadcrumb li {
     display: inline;
@@ -984,44 +963,6 @@ ul.breadcrumb {
   padding-top: 95px;
 }
 
-.container{
- width:  1200px;
- height: 630px;
- position: relative;
-}
-/* .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
-.container:before{
-  display: table;
-  content: " ";
-
-}
-.container::after{
-  display: table;
-    content: " ";
-    clear: both;
-}
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.row:before {
-  display: table;
-  content: " ";
-}
-.row::after{
-  clear: both;
-  display: table;
-  content: " ";
-}
-
-.text-center {
-  text-align: center;
-}
 body {
   color: #7f7f7f;
   font-size: 14px;
@@ -1125,9 +1066,6 @@ p {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 10px;
-}
-.event .text-center{
-  text-align: center;
 }
 
 

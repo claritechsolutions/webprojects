@@ -5,6 +5,17 @@
     opacity: 0 !important;
     }
     }
+    #map {
+        height: 360px;
+    }
+
+    
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
     /* newsletter contact section */
 .newsletter {
     width: 1200px;
@@ -65,9 +76,7 @@
             height: 45px;
         
     }
-    .container{
-        position: relative;
-    }
+    
     .newsletter{
         position: absolute;
         top: 50%;
@@ -118,9 +127,6 @@
         background-position: 55% bottom;
 }
 
-.container{
-    width: 1200px;
-}
 /* footer sections */
 .single-footer > h3 {
     color: #757575;

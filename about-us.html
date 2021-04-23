@@ -10,14 +10,14 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
-    <link rel="stylesheet" href="css/about.css">
+    <!-- <link rel="stylesheet" href="css/about.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>About-Us_Yoga Application</title>
-
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                     <div class="meta">
                         <div class="bottom-left">
                             <h2>ABOUT US</h2>
-                            <div class="banner-breadcrumbs">
+                            <div class="banner-breadcrumb">
                                 <ul class="breadcrumb">
                                     <li><a href="about.html"><b>Home</b> </a>
                                     </li>
@@ -71,9 +71,22 @@
                             <a href="#"><img src="asset/images/about.jpg" alt="about"></a>
                         </div>
                         <div class="video-icon video-hover">
-                            <a class="video-popup" href="https://www.youtube.com/watch?v=A47zwWsjXgs" target="_self">
+                            <a class="video-popup" data-toggle="modal" href="#video-popup">
                                 <i class="fa fa-play"></i>
                             </a>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="video-popup">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A47zwWsjXgs"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                    </iframe>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -83,23 +96,26 @@
     </section>
 
     <section class="event-area pb-100 pt-95">
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-xs-12">
-                    <div class="section-title text-center">
-                        <div class="centered ">
-                            <h2>Awesome Event</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                issss has been the industry's standard <br> dummy text ever since the 1500s, when an
-                                unknown lorem </p>
-                        </div>
-                        <div class="event-wrapper">
-                            <div class="event text-center">
-                                <h3>Yoga celebration in Handstand</h3>
+        <div class="event-area-section">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
+                        <div class="section-title  text-center">
+                            <div class="centered ">
+                                <h2>Awesome Event</h2>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry'ssurvived</p>
-                                <h4>09 March 2021</h4>
-                                <h5>10-12</h5>
+                                    Ipsum
+                                    issss has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown lorem </p>
+                            </div>
+                            <div class="event-wrapper ">
+                                <div class="event text-center">
+                                    <h3>Yoga celebration in Handstand</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry'ssurvived</p>
+                                    <h4>09 March 2021</h4>
+                                    <h5>10-12</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -110,33 +126,49 @@
 
 
 
-   
-    <section class="testimonial text-center">
-        <div class="container">
 
-            <div class="heading white-heading">
-                Testimonial
+    <section class="testimonial text-center pt-95 pb-100">
+        <div class="container ">
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
+                    <div class="section-title text-center">
+                        <h2>gift our client say</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            issss
+                            has been the industry's standard dummy text ever since the 1500s, when an unknown lorem
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-             
+            <div id="testimonial4"
+                class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <img src="asset/images/download (1).jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 1</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 2</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                            <img src="asset/images/download (1).jpg" class="img-circle img-responsive" />
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. </p>
                             <h4>Client 3</h4>
                         </div>
                     </div>
@@ -152,7 +184,6 @@
     </section>
 
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

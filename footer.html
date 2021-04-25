@@ -11,10 +11,263 @@
     <link rel="icon" href="asset/images/flower.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<<<<<<< HEAD
     <script src="basic.js"></script>
-</head>
+=======
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly" defer></script>
+    <style type="text/css">
+        /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+        #map {
+            height: 360px;
+        }
 
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 52.2093655, lng: 4.158446 },
+                zoom: 8,
+                styles: [
+                    {
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ebe3cd"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#523735"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "color": "#f5f1e6"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#c9b2a6"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.land_parcel",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#dcd2be"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.land_parcel",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#ae9e90"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape.natural",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dfd2ae"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dfd2ae"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#93817c"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#a5b076"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#447530"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f1e6"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#fdfcf8"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f8c967"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#e9bc62"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#e98d58"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#db8555"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#806b63"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.line",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dfd2ae"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.line",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#8f7d77"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.line",
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "color": "#ebe3cd"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.station",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dfd2ae"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#b9d3c2"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#92998d"
+                            }
+                        ]
+                    }
+                ],
+                options: {
+                    gestureHandling: 'greedy'
+                }
+            });
+        }
+    </script>
+>>>>>>> 7b994961a0b71d13b3ca0a5bf9e97b988e909b49
+</head>
 <body>
+<<<<<<< HEAD
 
     <!--footer-section-->
     <section>
@@ -49,6 +302,85 @@
                                 <p>div@envato good News for today!! We got 2
                                     psd templete weekly top selling quality template in technology category !!!</p>
                                 <a href="https://twitter.com/login/">https://twitter.com/login</a>
+=======
+    <div id="map"></div>
+    <section class="newsletter">
+        <div class="container">
+            <div class="row child">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <h2>Subscribe Now For Latest Update! </h2>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit">Submit</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-area-section bg-gray">
+        <footer class="footer-area">
+            <div class="footer-area-width pt-98 pb-90 fix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12">
+                            <div class="single-footer">
+                                <a href="footer.html">
+                                    <img src="asset/images/logo.png" alt="Handstand">
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a convallis nulla.
+                                    Ut
+                                </p>
+                                <ul>
+                                    <li><i class="fa fa-envelope-o"></i>&nbsp; username@gmail.com</li><br>
+                                    <li><i class="fa fa-phone"></i>&nbsp; (+660 256 24857)</li><br>
+                                    <li><i class="fa fa-home"></i> &nbsp; Your Address Here </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+                            <div class="single-footer">
+                                <h3>Recent Tweets</h3>
+                                <ul>
+                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
+                                        templete weekly top selling quality template in technology category !!! <br>
+                                        <a href="#">https://twitter.com/login</a>
+                                    </li><br>
+                                    <li><i class="fa fa-twitter"></i>&nbsp; @envato good News for today!! We got 2 psd
+                                        templete weekly top selling quality template in technology category !!! <br>
+                                        <a href="#">https://twitter.com/login</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4col-xs-12">
+                            <div class="single-footer">
+                                <h3>get in touch</h3>
+                                <form id="contact-form" action="mail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-sm-6 data-text">
+                                            <input type="text" placeholder="Name" name="name">
+                                        </div>
+                                        <div class="col-sm-6 data-text ">
+                                            <input type="text" placeholder="Email" name="email">
+                                        </div>
+                                        <div class="col-sm-12 mb-3">
+                                            <div class="form-group textarea">
+                                                <label class="required-field" for="message"></label>
+                                                <textarea class="form-control" id="message" name="message" rows="4"
+                                                    placeholder="subject"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 mb-3 ">
+                                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+>>>>>>> 7b994961a0b71d13b3ca0a5bf9e97b988e909b49
                             </div>
                         </div>
                     </div>

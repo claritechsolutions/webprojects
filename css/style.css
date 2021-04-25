@@ -467,6 +467,8 @@ td.pink{background: #FF91B8}
     transition: all 0.5s ease 0s;
 }
 .blog-content a:hover{color: #5FC7AE}
+
+
 /*----------------------------------------*/
 /*  8. Pricing Area
 /*----------------------------------------*/
@@ -514,9 +516,7 @@ td.pink{background: #FF91B8}
     text-transform: uppercase;
 }
 .table-body{
-    -webkit-transition: all 0.5s ease 0s;
-    -o-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
+   text-align: center;
 }
 .table-body ul{
     margin: 0;
@@ -527,9 +527,6 @@ td.pink{background: #FF91B8}
 .table-body ul li{
     display: block;
     padding: 15px 0;
-    border-bottom: 1px solid #EAE8E8;
-    -webkit-transition: all 0.5s ease 0s;
-    -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
 .table-body ul li:last-child{
@@ -537,6 +534,7 @@ td.pink{background: #FF91B8}
     padding-bottom: 0;
     border-bottom: none;
 }
+
 .table-body a {
     background: #f1f1f1 none repeat scroll 0 0;
     border-radius: 25px;
@@ -548,11 +546,20 @@ td.pink{background: #FF91B8}
     font-weight: 600;
     padding: 10px 33px;
     position: relative;
-    text-transform: uppercase;
     top: 19px;
-    -webkit-transition: all 0.5s ease 0s;
-    -o-transition: all 0.5s ease 0s;
+    text-align: center;
     transition: all 0.5s ease 0s;
+}
+.table-body ul li{
+    text-align: center;
+    padding-right: 25px;
+}
+.section-title p{
+    color:rgb(110, 104, 104)
+}
+.section-title {
+    margin-top:40px;
+    margin-bottom: 50px;
 }
 /*----------------------------------------*/
 /*  9. Newsletter Area
@@ -685,12 +692,68 @@ td.pink{background: #FF91B8}
 
 
 /*----------------------------------------*/
-/*  12. footer Area
+/*   header Area
+/*----------------------------------------*/
+ .header-section{
+     margin-top:20px;
+ }
+.logo img {
+    display: inline-block;
+    margin-left: 50px;
+}
+.top {
+    background: #fff;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+.mean-container .mean-nav ul li:first-child a {
+  border-top: none;
+}
+.header-contact > a {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #5FC7AE;
+    border-radius: 25px;
+    color: #666666;
+    margin-top: 8px;
+    padding: 8px 30px;
+    position:absolute;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color: #767676;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 540;
+    line-height: 64px;
+    padding: 0 20px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.4s ease 0s;
+}   
+.main-menu > nav > ul > li:hover > a {
+    color: #5FC7AE;
+}
+.banner-bttn:hover{
+    background-color: #5FC7AE;
+    color:black;
+    text-decoration: none;
+    }
+
+
+
+/*----------------------------------------*/
+/*   footer Area
 /*----------------------------------------*/
 .ftr {
     background-color: #f1f1f1;
     padding-top:40px;
     padding-bottom: 40px;
+    z-index:99;
 }
 .footer1 p{
     padding-top:20px;
@@ -772,18 +835,208 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
+
+
 /*----------------------------------------*/
-/*   header Area
+/*   our classes/banner
 /*----------------------------------------*/
+
+.bgimg {
+    background-image: url('../asset/images/bn.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+     height: 300px;
+    }
+.myclass {
+    position:absolute;
+    top:35%;
+    left:5%;
+    font-size: 18px;
+    color: white;
+       }
+.myclass ul li {
+    display:inline-block;
+    text-decoration: none;
+    }
+.myclass ul li a{
+    list-style-type: none;
+    color:white;
+    margin-right:8px;
+    font-size:18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    top: 15px;
+    } 
+.r-icon i{
+   color: white;
+    background: none;
+    margin-top:5px;
+    }
+  
+
+/*----------------------------------------*/
+/*   our classes Area
+/*----------------------------------------*/
+
+.classes{
+    padding-top:20px;
+    padding-bottom:40px;
+}
+.our{
+    color: #676767;
+}
+
+.our p {
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #676767;
+}
+.card-body h5{
+margin-left:10px;
+}
+.card-p p {
+    font-size: 14px;
+}
+.fa-clock-o{
+    color:rgb(119, 112, 112);
+}
+.card-text i{
+    font-size: 17px;
+    color:rgb(119, 112, 112);
+}
+.cardd {
+    position:relative;
+}
+.cardd:hover{
+        background-color: turquoise;
+        cursor: zoom-in;
+}
+.cardd:hover .card-img-top{
+        opacity: 0.3;
+ }
+.card-img-top{
+    opacity:1;
+    display: block;
+    transition: 0.5s ease-out;
+    backface-visibility: hidden;
+}
+.banner-btn {
+    color: #666666;
+    display: inline-block;
+    border: 1px solid #5FC7AE;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 0 35px;
+    border-radius: 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .banner-btn:hover{
     background-color: #5FC7AE;
     color:black;
+    text-decoration: none;
     }
+
+
+/*----------------------------------------*/
+/*   our classes /Class Schedule
+/*----------------------------------------*/
+
+.c-schedule {
+    color: #676767;
+}
+.c-schedule p {
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #676767;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+    background: #F1F1F1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    border:1px solid #E9E9E9;
+}
+td {
+    width: 12.5%;
+    padding: 35px 0px 28px 0;
+    border-right: 1px solid #E9E9E9;
+}
+td.time p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fffbfb;
+    font-weight: 500;
+}
+td h4 {
+    margin-top:20px;
+    font-size: 13px;
+    color: rgb(29, 23, 23);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+td p {
+    font-size: 12px;
+    color: rgb(26, 22, 22);
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 14px;
     
+}
 
+/*----------------------------------------*/
+/*  9. Newsletter Area
+/*----------------------------------------*/ 
+.newsletter-area{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9;
+}
+td {
+    padding: 35px 0px 28px 0;
+    border-right: 1px solid #E9E9E9;
+}
+.dismissButton {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+.graff .tablee{
+position: absolute;
+margin-top:8px;
+left:40%;
+    z-index: 1;
+    background-color: white;
 
-
-
+}
 
 
 

@@ -353,7 +353,7 @@ td.pink{background: #FF91B8}
 /*----------------------------------------*/
 /*  6. Event Area
 /*----------------------------------------*/
-.event-area{
+/* .event-area{
     background: url(img/bg/event-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -414,7 +414,7 @@ td.pink{background: #FF91B8}
     color: #7f7f7f;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}
+} */
 /*----------------------------------------*/
 /*  7. Blog Area
 /*----------------------------------------*/
@@ -856,39 +856,96 @@ td.pink{background: #FF91B8}
 /*----------------------------------------*/
 /*  14. AboutUs section
 /*----------------------------------------*/
-.bottom-left {
-    display: table-cell;
-    vertical-align: middle;
-    height: 200px;
-}
 .banner-area {
-    /* background: url(../asset/images/bn.jpg); */
+    background: url(../asset/images/bn.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
     z-index: 1;
+}
+.banner-content-wrapper {
+    display: table;
     height: 318px;
+    z-index: 9;
+    position: relative;
+    width: 100%;
+    text-align: left;
 }
-  .bottom-left {
+.banner-content {
+    display: table-cell;
+    vertical-align: middle;
+    height: 300px;
+}
+.banner-content h2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+h2{
+font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.banner-breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.banner-breadcrumb ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.banner-breadcrumb ul li a {
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.banner-area:after {
     position: absolute;
-    bottom: 10px;
-    left: 16px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    content: "";
+}
+.banner-breadcrumb ul li i {
+    padding: 0 10px;
+}
+  .banner-area{
+      padding-bottom: 30px;
   }
-h1 p{
-    float: left;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
+
+  .banner-content-area {
+     padding-top: 40px;
+     display: inline;
+     width: 1200px;
+     position: relative;
+     text-align: center;
+     color: rgb(15, 14, 14);
 }
-p{
-    box-sizing: border-box;
-    line-height: 24px;
-    font-size: 14px;
-    text-justify: auto;
+.banner-content-area {
+    text-align: justify;
 }
-h1{
+.content-section{
+    margin-bottom: 35px;
+}
+.content-section p{margin-bottom: 35px}
+.event-area .section-title p {
+    margin-bottom: 75px;
+}
+.content-section h2 {
     color: #676767;
     font-size: 36px;
     text-transform: capitalize;
@@ -896,57 +953,10 @@ h1{
     font-weight: 600;
     margin-bottom: 13px;
 }
-.left{
-    text-align: left justify;
-    border: 3px solid none;
-}
-.content{
-    padding-left: 20px;
-    width: 570px;
-    height: 320px;
-}
+.content-section .m-1 p{
+        margin-bottom: 35px;
+    }
 
-.banner-breadcrumb ul li i {
-    padding: 0 10px;
-}
-ul.breadcrumb li+li:before {
-    padding: 8px;
-    content: ">\00a0";
-}
-ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    padding-bottom: 20px;
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  .banner-breadcrumb ul li, .banner-breadcrumb ul li a {
-    display: inline-block;
-    text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-  
-    transition: all 0.5s ease 0s;
-}
-  .banner-area{
-      padding-bottom: 30px;
-  }
-  .banner-content {
-      padding-top: 40px;
-    display: inline;
-    width: 1200px;
-  position: relative;
-  text-align: center;
-  color: rgb(15, 14, 14);
-}
-.banner-content {
-    text-align: justify;
-}
-.content-section{
-    margin-bottom: 35px;
-}
 .banner-btn {
     background: transparent;
     color: #666666;
@@ -963,6 +973,14 @@ ul.breadcrumb {
     text-align: center;
     text-transform: uppercase;
     transition: all 0.5s ease 0s;
+}
+body {
+    color: #7f7f7f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Lato', sans-serif;
 }
 /* vedio embbed */
 
@@ -981,9 +999,9 @@ ul.breadcrumb {
 .fa-play:before {
     content: '\f3aa';
 }
-.video-icon a i {
+.video-icon a i{
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
 }
 .video-icon a {
   left: 0;
@@ -994,6 +1012,9 @@ ul.breadcrumb {
   top: 50%;
   z-index: 9;
 }
+.modal-content{
+    height: 315px;
+}
 
 /* event area start */
 .event-area-section{
@@ -1003,8 +1024,8 @@ ul.breadcrumb {
   background: url(../asset/images/event-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-    background-attachment: fixed;
-  
+  background-position: center center;
+  background-attachment: fixed;
 }
 .pb-100 {
   padding-bottom: 100px;
@@ -1027,7 +1048,8 @@ body {
   text-transform: capitalize;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  margin-bottom: 13px;
+  margin-bottom: 13px;}
+ .section-title h2{
   position: relative;
 }
 .section-title h2:after {
@@ -1041,9 +1063,9 @@ body {
   height: 8px;
   z-index: 9;
 }
-.event-area .section-title p {
-  margin-bottom: 75px;
-}
+/* .event-area .section-title p {
+  margin-bottom: 20px;
+} */
 .section-title p {
   margin-top: 30px;
 }
@@ -1084,6 +1106,10 @@ p {
 .event {
   z-index: 2;
   position: relative;
+}
+.event p {
+    padding: 0 60px;
+    margin-bottom: 20px;
 }
 .event h3 {
   font-size: 20px;

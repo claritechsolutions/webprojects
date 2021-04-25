@@ -465,7 +465,7 @@ td.pink{background: #FF91B8}
 .blog-pic{
     width: 30%;
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 .single-blog{display: inline-block}
 .blog-content {

@@ -1060,7 +1060,7 @@ body {
   z-index: 9;
 }
 .event-area .section-title p {
-  margin-bottom: 20px;
+  margin-bottom: 75px;
 }
 .section-title p {
   margin-top: 30px;
@@ -1103,7 +1103,7 @@ p {
   z-index: 2;
   position: relative;
 }
-.event p {
+.event-content p {
     padding: 0 60px;
     margin-bottom: 20px;
 }
@@ -1287,6 +1287,355 @@ p{
         letter-spacing: 1px;
         text-transform: uppercase;
         }
+
+        
+/*----------------------------------------*/
+/*   header Area
+/*----------------------------------------*/
+ .header-section{
+    margin-top:20px;
+}
+.logo img {
+   display: inline-block;
+   margin-left: 50px;
+}
+.top {
+   background: #fff;
+}
+.main-menu ul li {
+   display: inline-block;
+   position: relative;
+   list-style-type: none;
+}
+.mean-container .mean-nav ul li:first-child a {
+ border-top: none;
+}
+.header-contact > a {
+   font-size: 14px;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   border: 1px solid #5FC7AE;
+   border-radius: 25px;
+   color: #666666;
+   margin-top: 8px;
+   padding: 8px 30px;
+   position:absolute;
+}
+.main-menu ul li a {
+   text-decoration: none;
+   color: #767676;
+   display: inline-block;
+   font-size: 16px;
+   font-weight: 540;
+   line-height: 64px;
+   padding: 0 20px;
+   position: relative;
+   font-family: 'Montserrat', sans-serif;
+   transition: all 0.4s ease 0s;
+}   
+.main-menu > nav > ul > li:hover > a {
+   color: #5FC7AE;
+}
+.banner-bttn:hover{
+   background-color: #5FC7AE;
+   color:black;
+   text-decoration: none;
+   }
+
+
+
+/*----------------------------------------*/
+/*   footer Area
+/*----------------------------------------*/
+.ftr {
+   background-color: #f1f1f1;
+   padding-top:40px;
+   padding-bottom: 40px;
+   z-index:99;
+}
+.footer1 p{
+   padding-top:20px;
+   color: #7f7f7f;
+   font-size: 14px;
+   font-family: 'Lato', sans-serif;
+}
+ul li {
+   display: block;
+   margin-bottom: 14px;
+   color: #7f7f7f;
+   font-size: 14px;
+   font-family: 'Lato', sans-serif;
+}
+.footer2 h3 {
+    color: #757575;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 23px;
+}
+.fa {
+   float: left;
+   color:black;
+   background-color: white;
+}
+.icon-content{
+margin-bottom:10px;
+}
+.icon {
+   margin-top: 10px;
+   float: left;
+   margin-right:10px;
+}
+.content p{
+   color: #757575;
+   font-size: 14px;
+   display: table-cell;
+}
+.content a {
+   color: #5fc7ae;
+   font-size: 14px;
+   font-family: 'Lato', sans-serif;
+   margin-bottom: 15px;
+   line-height: 22px;
+   margin-left:30px;
+}
+.footer3 h3 {
+   color: #757575;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 23px;
+}
+button {
+   float:left;
+   background: #5FC7AE;
+   color: #fff;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+   padding: 10px 70px;
+   border: 1px solid #5FC7AE;
+}
+.form-control{
+   background-color:#f1f1f1 ;
+}
+.footer-copyright{
+   padding-top:15px;
+   padding-bottom:5px;
+}
+.footer-copyright a {
+   color: #fff;
+   font-weight: 700;
+}
+p {
+   color: #f5f5f5;
+   display: block;
+   font-size: 13px;
+   line-height: 21px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+}
+
+
+/*----------------------------------------*/
+/*   our classes/banner
+/*----------------------------------------*/
+
+.bgimg {
+   background-image: url('../asset/images/bn.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+    height: 300px;
+   }
+.myclass {
+   position:absolute;
+   top:35%;
+   left:5%;
+   font-size: 18px;
+   color: white;
+      }
+.myclass ul li {
+   display:inline-block;
+   text-decoration: none;
+   }
+.myclass ul li a{
+   list-style-type: none;
+   color:white;
+   margin-right:8px;
+   font-size:18px;
+   text-decoration: none;
+   margin-bottom: 10px;
+   top: 15px;
+   } 
+.r-icon i{
+  color: white;
+   background: none;
+   margin-top:5px;
+   }
+ 
+
+/*----------------------------------------*/
+/*   our classes Area
+/*----------------------------------------*/
+
+.classes{
+   padding-top:20px;
+   padding-bottom:40px;
+}
+.our{
+   color: #676767;
+}
+
+.our p {
+   margin-top: 20px;
+   margin-bottom:20px;
+   text-align: center;
+   color: #676767;
+}
+.card-body h5{
+margin-left:10px;
+}
+.card-p p {
+   font-size: 14px;
+}
+.fa-clock-o{
+   color:rgb(119, 112, 112);
+}
+.card-text i{
+   font-size: 17px;
+   color:rgb(119, 112, 112);
+}
+.cardd {
+   position:relative;
+}
+.cardd:hover{
+       background-color: turquoise;
+       cursor: zoom-in;
+}
+.cardd:hover .card-img-top{
+       opacity: 0.3;
+}
+.card-img-top{
+   opacity:1;
+   display: block;
+   transition: 0.5s ease-out;
+   backface-visibility: hidden;
+}
+.banner-btn {
+   color: #666666;
+   display: inline-block;
+   border: 1px solid #5FC7AE;
+   font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+   line-height: 36px;
+   padding: 0 35px;
+   border-radius: 25px;
+   position: relative;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.banner-btn:hover{
+   background-color: #5FC7AE;
+   color:black;
+   text-decoration: none;
+   }
+
+
+/*----------------------------------------*/
+/*   our classes /Class Schedule
+/*----------------------------------------*/
+
+.c-schedule {
+   color: #676767;
+}
+.c-schedule p {
+   margin-top: 20px;
+   margin-bottom:20px;
+   text-align: center;
+   color: #676767;
+}
+table {
+   border-spacing: 0;
+   border-collapse: collapse;
+   font-family: 'Montserrat', sans-serif;
+}
+
+th {
+   background: #F1F1F1;
+   text-align: center;
+   padding: 20px 0;
+   font-size: 16px;
+   font-weight: 500;
+   border:1px solid #E9E9E9;
+}
+td {
+   width: 12.5%;
+   padding: 35px 0px 28px 0;
+   border-right: 1px solid #E9E9E9;
+}
+td.time p {
+   margin-top: 20px;
+   font-size: 16px;
+   color: #fffbfb;
+   font-weight: 500;
+}
+td h4 {
+   margin-top:20px;
+   font-size: 13px;
+   color: rgb(29, 23, 23);
+   font-weight: 600;
+   margin-bottom: 8px;
+}
+td p {
+   font-size: 12px;
+   color: rgb(26, 22, 22);
+   font-weight: 400;
+   margin-bottom: 8px;
+   line-height: 14px;
+   
+}
+
+/*----------------------------------------*/
+/*  9. Newsletter Area
+/*----------------------------------------*/ 
+.newsletter-area{
+   margin-top: 40px;
+   margin-bottom: 50px;
+}
+table {
+   border-spacing: 0;
+   border-collapse: collapse;
+}
+tr {
+   border-bottom: 1px solid #E9E9E9;
+   border-left: 1px solid #E9E9E9;
+}
+td {
+   padding: 35px 0px 28px 0;
+   border-right: 1px solid #E9E9E9;
+}
+.dismissButton {
+   background-color: #fff;
+   border: 1px solid #dadce0;
+   color: #1a73e8;
+   border-radius: 4px;
+   font-family: Roboto,sans-serif;
+   font-size: 14px;
+   height: 36px;
+   cursor: pointer;
+   padding: 0 24px;
+}
+.graff .tablee{
+position: absolute;
+margin-top:8px;
+left:40%;
+   z-index: 1;
+   background-color: white;
+
+}
+
 
 
 

@@ -602,12 +602,9 @@ td.pink{background: #FF91B8}
     color:rgb(110, 104, 104)
 }
 .section-title {
-    margin-top:40px;
+    margin-top:10px;
     margin-bottom: 50px;
 }
-/*----------------------------------------*/
-/*  9. Newsletter Area
-/*----------------------------------------*/ 
 
 /*----------------------------------------*/
 /*  10. Testimonial Area
@@ -679,60 +676,6 @@ td.pink{background: #FF91B8}
     padding-bottom: 2px;
     background: #F1F1F1;
 }
-/*----------------------------------------*/
-/*  12. Newsletter Area
-/*----------------------------------------*/
-.newsletter-wrapper{
-    background: #5FC7AE;
-    padding: 55px 40px 45px;
-    margin-top: -105px;
-    z-index: 2;
-    position: relative;
-}
-.newsletter-content h2{
-    font-size: 24px;
-    color: #fff;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-}
-.newsletter-content.section-title h2:after{background: none}
-#mc-form {
-  position: relative;
-  width: 680px;
-  margin: auto;
-}
-#mc-form > input {
-    color: #eaeaea;
-    font-size: 13px;
-    margin-top: 20px;
-    padding: 0 15px;
-    background: #62C1AA;
-    border: none;
-    height: 45px;
-}
-.newsletter-form input#mc-email::-moz-placeholder {color: #eaeaea;} 
-.newsletter-form input[type="email"]::-webkit-input-placeholder {color: #eaeaea;}
-#mc-form .default-btn {
-  background: #fff none repeat scroll 0 0;
-  border: medium none;
-  color: #666666;
-  font-family: "Montserrat",sans-serif;
-  font-size: 16px;
-  height: 45px;
-  line-height: 34px;
-  padding: 0 35px;
-  position: absolute;
-    font-weight: 600;
-  right: 0px;
-  top: -10px;
-    border-radius: 0;
-    text-transform: capitalize;
-}
-#mc-form .default-btn:hover{color: #5FC7AE !important }
-#mc-form .default-btn:before {background: #fff none repeat scroll 0 0;z-index: -1}
-.newsletter-area .default-btn:before, .newsletter-area .default-btn:after{display: none} 
-.contact-form form{margin-top: 50px}
-
 /*----------------------------------------*/
 /*  13. Footer section
 /*----------------------------------------*/
@@ -1655,8 +1598,8 @@ td p {
 /*  9. Newsletter Area
 /*----------------------------------------*/ 
 .newsletter-area{
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top:60px;
+    
 }
 table {
     border-spacing: 0;
@@ -1682,12 +1625,78 @@ td {
     padding: 0 24px;
 }
 .graff .tablee{
-position: absolute;
-margin-top:8px;
-left:40%;
-    z-index: 1;
-    background-color: white;
+   position: absolute;
+   margin-top:8px;
+   left:40%;
+   z-index: 1;
+   background-color: white;
 
+}
+.newsletter-wrapper{
+    background: #5FC7AE;
+    padding: 55px 30px;
+    margin-top: -105px;
+    margin-left:70px;
+    margin-right: 20px;
+    z-index: 2;
+    position: relative;
+    width: 1170px;
+    height:200px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center;
+}
+.newsletter-content h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+#mc-form > input {
+    color: #eaeaea;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 0 15px;
+    border: none;
+    height: 45px;
+    background: #62C1AA;
+}
+input, textarea {
+    background: rgba(161, 149, 149, 0) none repeat scroll 0 0;;
+    border: 1px solid #f1f1f1;
+    box-shadow: none;
+    color: #eaeaea;
+    font-size: 14px;
+    height: 42px;
+    padding-left: 17px;
+    width: 60%;
+}
+.newsletter-form input[type="email"]::-webkit-input-placeholder {color:#eaeaea;}
+#mc-email{
+    color: #eaeaea;
+}
+#mc-form .default-btn {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #666666;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    height: 45px;
+    line-height: 34px;
+    padding: 0 35px;
+    position: absolute;
+    font-weight: 600;
+    right:90px;
+    top:68px;
+    border-radius: 0;
+}
+#mc-form .default-btn:hover{
+    color: #4f8073;
+    font-size: 17px;
 }
 
 

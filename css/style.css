@@ -421,7 +421,7 @@ td.pink{background: #FF91B8}
 .blog-pic{
     width: 30%;
     display: inline-block;
-    float: left;
+
 }
 .single-blog{display: inline-block}
 .blog-content {
@@ -467,6 +467,7 @@ td.pink{background: #FF91B8}
     transition: all 0.5s ease 0s;
 }
 .blog-content a:hover{color: #5FC7AE}
+
 /*----------------------------------------*/
 /*  8. Pricing Area
 /*----------------------------------------*/
@@ -554,9 +555,8 @@ td.pink{background: #FF91B8}
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-/*----------------------------------------*/
-/*  9. Newsletter Area
-/*----------------------------------------*/ 
+
+
 
 /*----------------------------------------*/
 /*  10. Testimonial Area
@@ -619,6 +619,7 @@ td.pink{background: #FF91B8}
   position: relative;
   width: 20px;
 }
+
 /*----------------------------------------*/
 /*  11. Map Area
 /*----------------------------------------*/
@@ -628,6 +629,7 @@ td.pink{background: #FF91B8}
     padding-bottom: 2px;
     background: #F1F1F1;
 }
+
 /*----------------------------------------*/
 /*  12. Newsletter Area
 /*----------------------------------------*/

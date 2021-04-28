@@ -1372,7 +1372,7 @@ ul li {
    font-weight: 500;
    margin-bottom: 23px;
 }
-.fa {
+.list-unstyled .fa {
    float: left;
    color:black;
    background-color: white;
@@ -1425,7 +1425,7 @@ button {
    color: #fff;
    font-weight: 700;
 }
-p {
+.footer-copyright  p {
    color: #f5f5f5;
    display: block;
    font-size: 13px;

@@ -222,10 +222,7 @@ font-weight: 700;
     text-decoration: none;
     }
 
-
-
-
-    #myImg {
+ #myImg {
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s;
@@ -699,7 +696,7 @@ button {
    font-size: 15px;
    font-family: 'Montserrat', sans-serif;
    padding: 10px 70px;
-   border: 1px solid #7fbeb0;
+   border: 1px solid #5FC7AE;
 }
 .form-control{
    background-color:#f1f1f1 ;
@@ -728,7 +725,9 @@ button {
 }
 
 
-/* Banner-Area */
+/*----------------------------------------*/
+/*  14. AboutUs section
+/*----------------------------------------*/
 .banner-area {
     background: url(../asset/images/bn.jpg);
     background-size: cover;
@@ -1224,7 +1223,7 @@ gallary:hover{
     background-color: white;
     font-size: 20px;
 }
-/* concat page */
+/* contact page */
 .contbtn{
   margin-left: 490px;
   width: 200px;

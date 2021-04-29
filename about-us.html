@@ -9,12 +9,13 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-          <!-- <link rel="stylesheet" href="css/about.css"> -->
+    <!-- <link rel="stylesheet" href="css/about.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <title>About-Us</title>
 
@@ -27,7 +28,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-12 col-xs-12">
                         <div class="logo">
-                            <a href="index.html"><img src="asset/images/logo.png" alt="hansdson image"/></a>
+                            <a href="index.html"><img src="asset/images/logo.png" alt="hansdson image" /></a>
                         </div>
                     </div>
                     <div class="col-md-8 col-sm-12 col-xs-12">
@@ -67,7 +68,9 @@
                             <h2>About Us</h2>
                             <div class="banner-breadcrumb">
                                 <ul>
-                                    <li><a href="index.html">home </a>&nbsp; <span class="iconify icon:zmdi:chevron-right icon-inline:false"> </span> &nbsp;</li>
+                                    <li><a href="index.html">home </a>&nbsp; <span
+                                            class="iconify icon:zmdi:chevron-right icon-inline:false"> </span> &nbsp;
+                                    </li>
                                     <li>about us</li>
                                 </ul>
                             </div>
@@ -112,15 +115,15 @@
                         </div>
                     </div>
                     <div class="modal fade" id="video-popup">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-lg ">
                             <div class="modal-content">
-                                <p>
-                                    <iframe width="900" height="506" src="https://www.youtube.com/embed/A47zwWsjXgs"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen>
-                                    </iframe>
-                                </p>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <!-- <button title="Close (Esc)" type="button" class="mfp-close">×</button> -->
+                                <iframe width="100%" height="506" src="https://www.youtube.com/embed/A47zwWsjXgs"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -133,22 +136,27 @@
     <section class="event-area pb-100 pt-95">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12  col-md-8  col-xs-12 ">
+                <div class="col-lg-12  col-md-8 col-md-offset-2 col-lg-offset-2 col-xs-12 ">
                     <div class="section-title  text-center">
                         <div class="centered ">
                             <h2>Awesome Event</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                 Ipsum
-                                issss has been the industry's standard dummy text ever since the 1500s, when an
+                                issss has been the industry's standard <br> dummy text ever since the 1500s, when an
                                 unknown lorem </p>
                         </div>
-                        <div class="event-wrapper ">
-                            <div class="event text-center">
-                                <h3>Yoga celebration in Handstand</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry'ssurvived</p>
-                                <h4>09 March 2021</h4>
-                                <h5>10-12</h5>
+                        <div class="d-flex justify-content-center">
+                            <div class="event-wrapper-main">
+                                <div class="event-wrapper ">
+                                    <div class="event text-center">
+                                        <h3>Yoga celebration in Handstand</h3>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                                            Lorem
+                                            Ipsum has been the industry'ssurvived</p>
+                                        <h4>09 March 2021</h4>
+                                        <h5>10-12</h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -166,7 +174,7 @@
                         <h2>gift our client say</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                             issss
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown lorem
+                            has been the industry's standard <br> dummy text ever since the 1500s, when an unknown lorem
                         </p>
                     </div>
                 </div>
@@ -213,8 +221,60 @@
         </div>
     </section>
 
-     <!--footer-section-->
-     <section>
+    <!-- Newsletter Area  -->
+    <section class="newsletter-area bg-gray">
+        <div class="container-fluid">
+            <div class="graff">
+
+                <div class="tablee" style="width:30%; padding: 15px 35px; border:1px solid rgb(156, 141, 141);">
+                    <table>
+                        <tr>
+                            <h6>Google</h6>
+                        </tr>
+                        <tr>
+                            <div style="line-height: 20px; margin: 15px 0px;"><span
+                                    style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">
+                                    This page can't load Google Maps correctly.</span>
+                        </tr>
+                        <tr>
+                            <td style="line-height: 16px; vertical-align: middle;"><a href="#" target="_blank"
+                                    style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this website?</a>
+                            </td>
+                            <td style="text-align: right;"><button class="dismissButton">OK</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7124.957425837366!2d75.8575969731896!3d26.76100633277249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc8dcff624eb7%3A0xf0d21b6cb5a92269!2sRampura%2C%20Rajasthan%20303905!5e0!3m2!1sen!2sin!4v1619341973331!5m2!1sen!2sin"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe> 
+                <div class="col-xs-12">
+                    <div class="newsletter-w fix">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                                <div class="newsletter-c section-title text-center">
+                                    <h2>subscribe now for latest update!</h2>
+                                    <div class="newsletterr-form">
+                                        <form action="#" id="m-form" class="mc-form fix" novalidate="true">
+                                            <input id="c-email" type="email" name="EMAIL"
+                                                placeholder="Enter your E-mail ID" autocomplete="off">
+                                            <button id="m-submit" type="submit"
+                                                class="defaultbtn"><span>submit</span></button>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--footer-section-->
+    <section>
         <footer class="ftr">
             <div class="container ftr ">
                 <div class="row">
@@ -272,11 +332,9 @@
             </div>
         </footer>
     </section>
-
     <div class="footer-copyright text-center" style="background-color:#20c997">
         <p>Copyright © <a class="text-white" href=""> Hastech</a> 2017. All Rights Reserved.</p>
     </div>
-
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

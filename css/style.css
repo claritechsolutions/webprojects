@@ -477,53 +477,13 @@ font-weight: 700;
 
 
  
-/*----------------------------------------*/ 
-/*---TESTIMONIAL---*/
-/*----------------------------------------*/ 
-.sliderr {
-    text-align: center;
-    width:750px;
-    position: relative;
-    z-index: 1;
-    margin-left:23%;
-    background: #5FC7AE;
-
-}
-.single-testimonials {
-    margin: 25px 30px;
-    padding: 40px 15px;
-}
-.data{color:rgb(114, 111, 111);}
-
-.single-testimonials p {
-    margin-bottom: 25px;
-    font-size: 14px;
-    color:white;
-}
-.single-testimonials img {
-    display: block;
-    transform-style: preserve-3d;
-    width: auto;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 15px;
-}
-.single-testimonials h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    color:white;
-    font-size: 14px;
-}
-
-
-   
 
 /*----------------------------------------*/
 /*   Newsletter Area
 /*----------------------------------------*/ 
 .newsletter-a{
-    margin-top:60px;
-    margin-bottom:0px;   
+    margin-top:30px;
+    margin-bottom:1px;   
     padding-top:0px;
 }
 .topt {
@@ -557,13 +517,13 @@ font-weight: 700;
 }
 .newsletter-w{
     background: #5FC7AE;
-    padding: 35px 30px;
+    padding: 35px 35px;
     margin-top: -105px;
-    margin-left:70px;
+    margin-left:75px;
     margin-right: 20px;
     z-index: 2;
     position: relative;
-    width: 1170px;
+    width: 1160px;
     height:200px;
 }
 .row {
@@ -573,8 +533,15 @@ font-weight: 700;
 .text-center {
     text-align: center;
 }
-.newsletter-c h2 {
-    font-size: 22px;
+.sub{
+    color: #fff;
+}
+.sub h3{
+    font-size: 34px;
+}
+.newsletter-c .section-title h3 {
+    font-size: 24px;
+    margin-left:10px;
     color: #fff;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -618,7 +585,7 @@ input, textarea {
     position: absolute;
     font-weight: 600;
     right:72px;
-    top:76px;
+    top:70px;
     border-radius: 0;
 }
 #m-form .defaultbtn:hover{

@@ -1078,8 +1078,8 @@ p {
   background: #ffffff none repeat scroll 0 0;
   box-shadow: 0 0 4px 4px #dddddd;
   display: table-cell;
-  margin: 0 42px;
-  padding: 24px 80px 66px;
+  margin: 0 0px;
+  padding: 24px 0px 66px;
   position: relative;
   text-align: center;
   vertical-align: middle;

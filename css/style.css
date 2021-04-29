@@ -658,11 +658,7 @@ ul li {
    font-weight: 500;
    margin-bottom: 23px;
 }
-<<<<<<< HEAD
  .icon-content .icon .fa {
-=======
-.list-unstyled .fa {
->>>>>>> 1eda888c803df9eb41d2a3f62a135f1c81eab88d
    float: left;
    color:black;
    background-color: white;
@@ -715,7 +711,6 @@ button {
    color: #fff;
    font-weight: 700;
 }
-<<<<<<< HEAD
 .footer-copyright p{
     color:white;
     font-size: 13px;
@@ -723,9 +718,6 @@ button {
     font-family: 'Lato', sans-serif;
 }
 .para {
-=======
-.footer-copyright  p {
->>>>>>> 1eda888c803df9eb41d2a3f62a135f1c81eab88d
    color: #f5f5f5;
    display: block;
    font-size: 13px;

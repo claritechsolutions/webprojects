@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
 
 </head>
 
@@ -24,7 +26,7 @@
 
     <div class="header-section">
         <header class="top">
-            <div class="header-area ptb-18 header-sticky">
+            <div class="header-area ptb-10 header-sticky">
                 <div class="container head">
                     <div class="row">
                         <div class="col-md-2 col-sm-12 col-xs-12">
@@ -61,17 +63,23 @@
 
     <!--bannar-section-->
 
-    <section class="ban">
-        <div class="bgimg">
+    <section class="banner-area text-left">
+        <div class="container">
             <div class="row">
-                <div class="my-5 myclass">
-                    <ul class="bread-c">
-                        <h3>CLASSES</h3>
-                        <li><a href="#">Home</a></li>
-                        <li class="r-icon"><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-                        <li><a href="#">About Us</a></li>
-                    </ul>
-
+                <div class="col-xs-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-content">
+                            <h2>About Us</h2>
+                            <div class="banner-breadcrumb">
+                                <ul>
+                                    <li><a href="index.html">home </a>&nbsp; <span
+                                            class="iconify icon:zmdi:chevron-right icon-inline:false"> </span> &nbsp;
+                                    </li>
+                                    <li>about us</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,6 +87,7 @@
 
 
     <!--Our Classes-->
+
     <section class="bg-light classes">
         <div class="container our">
             <h2 class="text-center text-capitalize pt-5">our classes</h2>
@@ -87,57 +96,141 @@
                 industry's standard<br> dummy text ever since the 1500s, when an unknown lorem</p>
             <div class="row mt-5">
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card" style="width: 22rem;">
+                    <div class="card" style="width:20rem;">
                         <div class="cardd">
-                            <img class="card-img-top" id="img1" src="asset/images/1.jpg" alt="Card image cap">
+                            <img class="card-img-top" id="myImg" id="img1" src="asset/images/1.jpg" style="width:100%;max-width:400px" alt="image cap1">
+
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                            </div>
+                             <script>
+                                var modal = document.getElementById("myModal");
+                                var img = document.getElementById("myImg");
+                                var modalImg = document.getElementById("img01");
+                                var captionText = document.getElementById("caption");
+                                img.onclick = function () {
+                                    modal.style.display = "block";
+                                    modalImg.src = this.src;
+                                    captionText.innerHTML = this.alt;
+                                }
+
+                                // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+
+                                // When the user clicks on <span> (x), close the modal
+                                span.onclick = function () {
+                                    modal.style.display = "none";
+                                }
+                            </script>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Yoga For Climbers</h5>
                             <div class="card-p">
-                                <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true">&nbsp Sathi
-                                        Bhuiyan &nbsp</i></p><span><i class="fa fa-clock-o" aria-hidden="true"> 10.00
-                                        A.M-5.00 P.M</i></span>
+                                <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true"></i>&nbsp Sathi
+                                    Bhuiyan &nbsp</p><span><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00
+                                    A.M-5.00 P.M</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card" style="width:22rem;">
+                    <div class="card" style="width:20rem;">
                         <div class="cardd">
-                            <img class="card-img-top" id="img2" src="asset/images/2.jpg" alt="Card image cap">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Yoga For Climbers</h5>
-                            <div class="card-p">
-                                <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true">&nbsp Sathi
-                                        Bhuiyan &nbsp</i></p><span><i class="fa fa-clock-o" aria-hidden="true"> 10.00
-                                        A.M-5.00 P.M</i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            <img class="card-img-top" id="myImg1" id="img2" src="asset/images/2.jpg" style="width:100%;max-width:400px" alt="image cap1">
 
-                <div class="col-lg-4 col-md-4 col-12">
-                    <div class="card" style="width: 22rem;">
-                        <div class="cardd">
-                            <img class="card-img-top" id="img3" src="asset/images/3.jpg" alt="Card image cap">
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img02">
+                                <div id="caption"></div>
+                            </div>
+                             <script>
+                                var modal = document.getElementById("myModal");
+                                var img = document.getElementById("myImg1");
+                                var modalImg = document.getElementById("img02");
+                                var captionText = document.getElementById("caption");
+                                img.onclick = function () {
+                                    modal.style.display = "block";
+                                    modalImg.src = this.src;
+                                    
+                                    captionText.innerHTML = this.alt;
+                                }
+
+                                // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+
+                                // When the user clicks on <span> (x), close the modal
+                                span.onclick = function () {
+                                    modal.style.display = "none";
+                                }
+                            </script>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Yoga For Climbers</h5>
                             <div class="card-p">
-                                <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true">&nbsp Sathi
-                                        Bhuiyan &nbsp</i></p><span><i class="fa fa-clock-o" aria-hidden="true"> 10.00
-                                        A.M-5.00 P.M</i></span>
+                                <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true"></i>&nbsp Sathi
+                                    Bhuiyan &nbsp</p><span><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00
+                                    A.M-5.00 P.M</span>
                             </div>
                         </div>
                     </div>
                 </div>
+                            
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" style="width:20rem;">
+                    <div class="cardd">
+                        <img class="card-img-top" id="myImg2" id="img3" src="asset/images/3.jpg"  style="width:100%;max-width:400px" alt="image cap 3">
+                    
+                        
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                            </div>
+                             <script>
+                                var modal = document.getElementById("myModal");
+                                var img = document.getElementById("myImg2");
+                                var modalImg = document.getElementById("img01");
+                                var captionText = document.getElementById("caption");
+                                img.onclick = function () {
+                                    modal.style.display = "block";
+                                    modalImg.src = this.src;
+                                    captionText.innerHTML = this.alt;
+                                }
+
+                                // Get the <span> element that closes the modal
+                                var span = document.getElementsByClassName("close")[0];
+
+                                // When the user clicks on <span> (x), close the modal
+                                span.onclick = function () {
+                                    modal.style.display = "none";
+                                }
+                            </script>
+                    
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga For Climbers</h5>
+                        <div class="card-p">
+                            <p class="card-text"><i class="fa fa-smile-o" aria-hidden="true"></i>&nbsp Sathi
+                                Bhuiyan &nbsp</p><span><i class="fa fa-clock-o" aria-hidden="true"></i> 10.00
+                                A.M-5.00 P.M</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 text-center">
-                <a class="banner-btn mt-55 my-25" href="#" data-text="view all classes"><span>view all
-                        classes</span></a>
-            </div>
+        </div>
+        <div class="col-xs-12 text-center">
+            <a class="banner-btn mt-55 my-25" href="#" data-text="view all classes"><span>view all
+                    classes</span></a>
+        </div>
         </div>
     </section>
 
@@ -261,10 +354,10 @@
 
     <!--pricing table-->
 
-    <div class="pricing-area pt-95 pb-120 bg-gray">
+    <div class="pricing-area  bg-gray">
         <div class="container">
             <div class="row text-center">
-                <div class="section-title text-center">
+                <div class="section-title">
                     <h2>pricing table</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum issss has
                         been the industry's standard dummy text ever since the 1500s, when an unknown lorem </p>
@@ -330,75 +423,85 @@
 
 
     <!-----testimonial area-->
-    <div class="container testi">
-        <div class="row">
-            <div class="col-lg-12  col-md-8  col-xs-12">
-                <div class="section-title text-center">
-                    <h2>gift our client say</h2>
-                    <p class="data">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum
-                        issss
-                        has been the industry's<br> standard dummy text ever since the 1500s, when an unknown lorem
-                    </p>
+    <section>
+        <div class="container testi">
+            <div class="row">
+                <div class="col-lg-12  col-md-8  col-xs-12">
+                    <div class="section-title text-center">
+                        <h2>gift our client say</h2>
+                        <p class="data">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum
+                            issss
+                            has been the industry's<br> standard dummy text ever since the 1500s, when an unknown lorem
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="slider">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+
+        <div class="sliderr">
+            <div id="testimonial4"
+                class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <div class="single-testimonials">
-                            <i class="fa fa-quote-right" aria-hidden="true"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae
-                                purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu
-                                lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                            <img src="asset/images/signature.png" alt="signature">
-                            <h6>Co-Founder Of Company</h6>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="single-testimonial">
-                            <i class="fa fa-quote-right" aria-hidden="true"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae
-                                purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu
-                                lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                            <img src="asset/images/signature.png" alt="signature">
-                            <h6>Co-Founder Of Company</h6>
+                        <div class="testimonial4_slide">
+                            <div class="single-testimonials">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam
+                                    vitae
+                                    purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum
+                                    eu
+                                    lacinia congue. Vestibulum sodales, sapien aliquam </p>
+                                <img src="asset/images/signature.png" alt="signature">
+                                <h6>Co-Founder Of Company</h6>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="single-testimonial">
-                            <i class="fa fa-quote-right" aria-hidden="true"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam vitae
-                                purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum eu
-                                lacinia congue. Vestibulum sodales, sapien aliquam </p>
-                            <img src="asset/images/signature.png" alt="signature">
-                            <h6>Co-Founder Of Company</h6>
+                        <div class="testimonial4_slide">
+                            <div class="single-testimonials">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam
+                                    vitae
+                                    purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum
+                                    eu
+                                    lacinia congue. Vestibulum sodales, sapien aliquam </p>
+                                <img src="asset/images/signature.png" alt="signature">
+                                <h6>Co-Founder Of Company</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial4_slide">
+                            <div class="single-testimonials">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non mi just. Aliquam
+                                    vitae
+                                    purus vel odio suscipit lobortis. Donec interdum finibus egestas. In eleifend ipsum
+                                    eu
+                                    lacinia congue. Vestibulum sodales, sapien aliquam </p>
+                                <img src="asset/images/signature.png" alt="signature">
+                                <h6>Co-Founder Of Company</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
         </div>
-    </div>
 
-
+    </section>
 
     <!-- Newsletter Area  -->
     <section class="newsletter-a bg-gray">
         <div class="container-fluid">
             <div class="graff">
 
-                <div class="tablee" style="width:30%; padding: 15px 35px; border:1px solid rgb(156, 141, 141);">
-                    <table>
+                <div class="tablee" style="width:30%; padding: 15px 35px; border:1px solid rgb(196, 183, 183);">
+                    <table class="topt">
                         <tr>
                             <h6>Google</h6>
                         </tr>
@@ -411,7 +514,7 @@
                             <td style="line-height: 16px; vertical-align: middle;"><a href="#" target="_blank"
                                     style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this website?</a>
                             </td>
-                            <td style="text-align: right;"><button class="dismissBtn">OK</button></td>
+                            <td style="text-align: right; margin-left:30px;"><button class="dismissBtn">OK</button></td>
                         </tr>
                     </table>
                 </div>
@@ -429,7 +532,7 @@
                                     <div class="newsletterr-form">
                                         <form action="#" id="m-form" class="mc-form fix" novalidate="true">
                                             <input id="c-email" type="email" name="EMAIL"
-                                                placeholder="Enter your E-mail ID">
+                                                placeholder="Enter your E-mail ID" autocomplete="off">
                                             <button id="m-submit" type="submit"
                                                 class="defaultbtn"><span>submit</span></button>
                                         </form>
@@ -478,7 +581,7 @@
                         <div class="icon-content">
                             <div class="icon"><i class="fa fa-twitter-square mr-2"></i></div>
                             <div class="content">
-                                <p>div@envato good News for today!! We got 2
+                                <p class="para">div@envato good News for today!! We got 2
                                     psd templete weekly top selling quality template in technology category !!!</p>
                                 <a href="https://twitter.com/login/">https://twitter.com/login</a>
                             </div>

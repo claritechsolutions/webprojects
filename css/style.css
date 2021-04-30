@@ -1223,6 +1223,9 @@ gallary:hover{
     background-color: white;
     font-size: 20px;
 }
+.zoom{
+  margin-top: 17px;
+}
 /* contact page */
 .contbtn{
   margin-left: 490px;

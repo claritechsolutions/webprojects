@@ -201,7 +201,7 @@ font-weight: 700;
     transition: 0.5s ease-out;
     backface-visibility: hidden;
  }
- .banner-btn {
+ .text-center .banner-btn {
     color: #666666;
     display: inline-block;
     border: 1px solid #5FC7AE;
@@ -665,8 +665,12 @@ button {
    padding: 10px 70px;
    border: 1px solid #5FC7AE;
 }
-.form-control{
+.first .form-control{
    background-color:#f1f1f1 ;
+}
+
+.third .form-control{
+  background-color:#f1f1f1 ;
 }
 .footer-copyright{
    padding-top:15px;

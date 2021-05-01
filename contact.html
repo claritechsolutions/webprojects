@@ -73,26 +73,62 @@
     </section>
    
     <!-- Form-Area -->
-    <section>
-        <div class="container">
-            <h1 class="text-center text-capitalize">contact form</h1>
-            <form action="">
-                <div class="row  mt-5">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Name" id="name">
+    <div class="container frm">
+        <h1 class="mainhead">Yoga Contact Form</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <h6>Contact Us!!</h6>
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="Name" id="Name" class="form-control" name="Name">
                     </div>
-                    <div class="col">
-                        <input type="email" class="form-control" placeholder="Email" id="email">
+                    <div class="form-group">
+                        <label for="addre">Address</label>
+                        <input type="address" id="addre" name="addre" class="form-control">
                     </div>
-                </div><br><br>
+                    <div class="form-group">
+                        <label for="tel">Telephone</label>
+                        <input type="tel" id="tel" name="tel" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" cols="70" rows="5">Message</textarea>
+                    </div>
+                    <input type="button" name="sendmessage" value="send message" class="fbtn">
+            </div>
+                </form>
+            
+            <div class="col-6">
+                <h6>Subscribe</h6>
+                <form>
                 <div class="form-group">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Subject"
-                        rows="3"></textarea>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control">
                 </div>
-                <button class="btn btn-primary contbtn">Submit</button>
-            </form>
+                <input type="button" name="button" value="Subscribe" class="fbtn">
+                <h6>Our Location</h6>
+               <div class="form-group">
+                <label for="reachus">Reach Us</label>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30411.382324361155!2d75.30109376425337!3d17.677476625930137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4181b8db52943%3A0x1ab147f5432da578!2sPandharpur%2C%20Maharashtra%20413304!5e0!3m2!1sen!2sin!4v1619765847554!5m2!1sen!2sin" 
+                width="540" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </div>
+               <div class="form-group">
+                   <label for="stayintouch">Stay In Touch</label><br>
+                   <i class="fa fa-facebook soci" aria-hidden="true"></i>
+                   <i class="fa fa-twitter soci" aria-hidden="true"></i>
+                   <i class="fa fa-pinterest-p soci" aria-hidden="true"></i>
+                   <i class="fa fa-linkedin soci" aria-hidden="true"></i>
+
+                </div>
+               
+             </form>
+            </div>
         </div>
-    </section>
+    </div>
     <!-- Map-Area -->
     <section class="newsletter-a bg-gray">
         <div class="container-fluid">

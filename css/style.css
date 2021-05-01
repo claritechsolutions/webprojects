@@ -1198,13 +1198,25 @@ gallary:hover{
   margin-top: 17px;
 }
 /* contact page */
-.contbtn{
-  margin-left: 490px;
-  width: 200px;
-  border-radius: 0;
+.soci{
+  color: black;
+  font-size:25px;
+  cursor:pointer;
+  margin: 10px;
 }
-.contbtn:hover{
-  background-color: white;
-  color: blue;
+.frm{
+  background-image: url('../asset/images/contactform\ img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.mainhead{
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+form  .fbtn{
+background-color: gray;   
+}
+label{
+  color: #000;
+}

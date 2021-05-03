@@ -1227,16 +1227,26 @@ gallary:hover{
   margin-top: 17px;
 }
 /* contact page */
+.mainhead{
+  color: #000; 
+}
+.frm h6{
+  color: #000;
+}
 .soci{
   color: black;
   font-size:25px;
   cursor:pointer;
   margin: 10px;
 }
-.frm{
-  background-image: url('../asset/images/contactform\ img.jpg');
+
+/* .frmm{
+  background-image: url('../asset/images/SBE9ZU.webp');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover ;
+} */
+.tip{
+  color: #000;
 }
 
 

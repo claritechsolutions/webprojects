@@ -1210,6 +1210,42 @@ gallary:hover{
   background-size: cover;
 }
 
+
+/*---trainer area---*/
+.single-trainer, .blog-pic {
+  position: relative;
+  overflow: hidden;
+}
+
+.trainer-hover {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 99;
+  margin-top: -32px;
+}
+
+.single-trainer {
+  position:relative;
+}
+.single-trainer:hover{
+      background-color: turquoise;
+      cursor: zoom-in;
+}
+.single-trainer:hover .img-trainer{
+      opacity: 0.3;
+}
+.img-trainerp{
+  opacity:1;
+  display: block;
+  transition: 0.5s ease-out;
+  backface-visibility: hidden;
+}
+
 /* slider carousel in index page */
 
 /* Make the image fully responsive */
@@ -1280,3 +1316,4 @@ text-align: center;
 text-transform: uppercase;
 transition: all 0.5s ease 0s;
 }
+

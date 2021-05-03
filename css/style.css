@@ -71,51 +71,11 @@
     position: relative;
     z-index: 1;
 }
-.banner-content-wrapper {
-    display: table;
-    height: 318px;
-    z-index: 9;
+.banner-content-wrapperr {
+   z-index: 9;
     position: relative;
-    width: 100%;
-    text-align: left;
-}
-.banner-content {
-    display: table-cell;
-    vertical-align: middle;
-    height: 300px;
-}
-.banner-content h2 {
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-h2{
-font-weight: 700;
-    margin: 0;
-    padding: 0;
-}
-.banner-breadcrumb ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.banner-breadcrumb ul li{
-    display: inline-block;
-    text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    transition: all 0.5s ease 0s;
-}
-.banner-breadcrumb ul li a {
-    display: inline-block;
-    text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    transition: all 0.5s ease 0s;
+    width:100%;
+    height: 318px; 
 }
 .banner-area:after {
     position: absolute;
@@ -126,14 +86,50 @@ font-weight: 700;
     background: rgba(0, 0, 0, 0.7);
     content: "";
 }
-.banner-breadcrumb ul li i {
-    padding: 0 10px;
-}
-  .banner-area{
+.banner-area{
       padding-bottom: 30px;
   }
+.myclass {
+    position:absolute;
+    top:43%;
+    left:5%;
+    font-size: 19px;
+    color: white;
+}
+.myclass h3{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 
-
+}
+.myclass ul{
+   display: flex;
+   padding-left:0px;
+ }      
+.myclass ul li {
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding:5px;
+    }
+.myclass ul li a{
+    list-style-type: none;
+    color:white;
+    margin-right:8px;
+    font-size:16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    top: 15px;
+    } 
+.r-icon i{
+   color: white;
+    background: none;
+    margin-top:5px;
+    }
   
 
 /*----------------------------------------*/
@@ -591,6 +587,39 @@ input, textarea {
 #m-form .defaultbtn:hover{
     color: #4f8073;
     font-size: 17px;
+}
+
+
+/*----caurosal-------*/
+.slider-c{
+  margin-left:10%;
+  width: 900px;
+  margin-bottom:40px ;
+
+}
+.single-testimonial {
+  background: #5fc7ae none repeat scroll 0 0;
+  color: #ffffff;
+  margin: 30px 85px 30px 85px;
+  padding: 20px 60px;
+  position: relative;
+  text-align: center;
+}
+.single-testimonial p {
+  margin-bottom: 25px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.single-testimonial img{
+ text-align: center;
+ font-size: 15px;
+ height: 24px;
+ width:50px;
+margin-bottom: 15px;
+}
+.single-testimonial h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
  

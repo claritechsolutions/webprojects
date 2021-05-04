@@ -745,12 +745,12 @@ button {
     width: 100%;
     text-align: left;
   }
-  .banner-content {
+  /* .banner-content {
     display: table-cell;
     vertical-align: middle;
     height: 300px;
-  }
-  .banner-content h2 {
+  } */
+  /* .banner-content h2 {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -759,7 +759,7 @@ button {
   }
   .banner-content h2{
   font-weight: 700;
-    margin: 0;
+   
     padding: 0;
   }
   .banner-breadcrumb ul {
@@ -808,7 +808,7 @@ button {
   }
   .banner-content-area {
     text-align: justify;
-  }
+  } */
   .content-section{
     margin-bottom: 35px;
   }
@@ -1288,7 +1288,7 @@ gallary:hover{
 /* slider carousel in index page */
 
 /* Make the image fully responsive */
-.carousel-inner img {
+.images-section img {
   width: 200px;
   height: 200px;
 }
@@ -1297,7 +1297,6 @@ color: black;
 right: 58%;
 text-align: center;
 max-width: 900px;
-height: 240px;
 left: auto;
 top: auto;
 }
@@ -1307,7 +1306,6 @@ top: auto;
   margin: 0;
   color: #5FC7AE;
 }
-
 .carousel-caption h5{
 font-size: 16px;
 color: #7f7f7f;
@@ -1329,9 +1327,9 @@ line-height: 1.1;
 .item .carousel-caption  p {
 line-height: 24px;
 margin: 0 0 10px;
-color: #7f7f7f;
+color: #000;
 font-size: 16px;
-margin-bottom: 32px;
+margin-bottom: 10px;
 font-family: 'Lato', sans-serif; 
 }
 .title{
@@ -1340,7 +1338,7 @@ color: #5FC7AE;
 
 .carousel-caption .banner-btn {
 background: transparent;
-color: #666666;
+color: #000;
 display: inline-block;
 border: 1px solid #5FC7AE;
 font-size: 14px;

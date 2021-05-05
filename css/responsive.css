@@ -1,9 +1,30 @@
-@media only screen and (min-width: 600px) {
-    body {
-        /* background-color: red; */
+/*-----media queri for classes-page----*/
+
+@media only screen and (max-width: 768px) {
+    .bars {
+        display:block;
+        top:0px;
+        right:0px;
+        margin:0px;
+        font-size: 28px;
     }
-    .section-1 h1{
-        font-size: 10px;
+    .main-menu ul li {
+        display:block;
+        font-size: 16px;
+        padding:0px;
     }
+    ul{
+        display: none;
+    }
+
+    .banner-area{
+        padding:10px;
+        margin:20px;
+    
+    }
+
+
+
+
 
 }

@@ -7,6 +7,9 @@
     margin-top:10px;
 
 }
+.bars{
+  display: none;
+}
 .logo img {
    display: inline-block;
    margin-left: 50px;

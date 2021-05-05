@@ -591,17 +591,18 @@ input, textarea {
 
 
 /*----caurosal-------*/
+
 .slider-c{
-  margin-left:10%;
-  width: 900px;
+  margin-left:5.5%;
+  width: 1000px;
   margin-bottom:40px ;
 
 }
 .single-testimonial {
   background: #5fc7ae none repeat scroll 0 0;
   color: #ffffff;
-  margin: 30px 85px 30px 85px;
-  padding: 20px 60px;
+  margin: 20px 85px 30px 85px;
+  padding: 40px 80px;
   position: relative;
   text-align: center;
 }
@@ -611,11 +612,12 @@ input, textarea {
   font-size: 14px;
 }
 .single-testimonial img{
- text-align: center;
  font-size: 15px;
- height: 24px;
- width:50px;
-margin-bottom: 15px;
+ transform-style: preserve-3d;
+ width: auto;
+ text-align: center;
+ margin: auto;
+ margin-bottom: 15px;
 }
 .single-testimonial h6 {
   font-family: 'Montserrat', sans-serif;
@@ -745,12 +747,12 @@ button {
     width: 100%;
     text-align: left;
   }
-  .banner-content {
+  /* .banner-content {
     display: table-cell;
     vertical-align: middle;
     height: 300px;
-  }
-  .banner-content h2 {
+  } */
+  /* .banner-content h2 {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -759,7 +761,7 @@ button {
   }
   .banner-content h2{
   font-weight: 700;
-    margin: 0;
+   
     padding: 0;
   }
   .banner-breadcrumb ul {
@@ -808,7 +810,7 @@ button {
   }
   .banner-content-area {
     text-align: justify;
-  }
+  } */
   .content-section{
     margin-bottom: 35px;
   }
@@ -1053,6 +1055,7 @@ button {
   .pb-100 {
     padding-bottom: 100px;
   }
+
   /*testimonial section  */
   .testimonial .carousel {
     padding-bottom:50px;
@@ -1250,7 +1253,10 @@ gallary:hover{
 }
 
 
-/*---trainer area---*/
+/*----------------------------------------*/
+/* ---trainer area/ homepage---*/
+/*----------------------------------------*/
+
 .single-trainer, .blog-pic {
   position: relative;
   overflow: hidden;
@@ -1265,30 +1271,64 @@ gallary:hover{
   height: 100%;
   content: "";
   z-index: 99;
-  margin-top: -32px;
+  margin-top: -32px; 
 }
-
 .single-trainer {
   position:relative;
+}
+.single-trainer .trainer-hover {
+  display: none;
+}
+.single-trainer:hover .trainer-hover {
+  display: block;
 }
 .single-trainer:hover{
       background-color: turquoise;
       cursor: zoom-in;
+      transform: scale(1.1);
+      transform-origin: 50% 65%;
+    transition: transform 3s, filter 3s ease-in-out;
+    filter: brightness(59%);
 }
 .single-trainer:hover .img-trainer{
       opacity: 0.3;
 }
-.img-trainerp{
-  opacity:1;
-  display: block;
-  transition: 0.5s ease-out;
-  backface-visibility: hidden;
+.trainer-hover h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  opacity:0px;
 }
+.trainer-hover ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+.trainer-hover ul li {
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+.trainer-hover ul li a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 28px;
+}
+
+
+
+
+
+
 
 /* slider carousel in index page */
 
 /* Make the image fully responsive */
-.carousel-inner img {
+.images-section img {
   width: 200px;
   height: 200px;
 }
@@ -1297,7 +1337,6 @@ color: black;
 right: 58%;
 text-align: center;
 max-width: 900px;
-height: 240px;
 left: auto;
 top: auto;
 }
@@ -1307,7 +1346,6 @@ top: auto;
   margin: 0;
   color: #5FC7AE;
 }
-
 .carousel-caption h5{
 font-size: 16px;
 color: #7f7f7f;
@@ -1329,9 +1367,9 @@ line-height: 1.1;
 .item .carousel-caption  p {
 line-height: 24px;
 margin: 0 0 10px;
-color: #7f7f7f;
+color: #000;
 font-size: 16px;
-margin-bottom: 32px;
+margin-bottom: 10px;
 font-family: 'Lato', sans-serif; 
 }
 .title{
@@ -1340,7 +1378,7 @@ color: #5FC7AE;
 
 .carousel-caption .banner-btn {
 background: transparent;
-color: #666666;
+color: #000;
 display: inline-block;
 border: 1px solid #5FC7AE;
 font-size: 14px;

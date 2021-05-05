@@ -1271,6 +1271,12 @@ gallary:hover{
 .single-trainer {
   position:relative;
 }
+.single-trainer .trainer-hover {
+  display: none;
+}
+.single-trainer:hover .trainer-hover {
+  display: block;
+}
 .single-trainer:hover{
       background-color: turquoise;
       cursor: zoom-in;

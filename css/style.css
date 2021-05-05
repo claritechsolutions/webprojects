@@ -591,6 +591,7 @@ input, textarea {
 
 
 /*----caurosal-------*/
+
 .slider-c{
   margin-left:10%;
   width: 900px;
@@ -611,11 +612,12 @@ input, textarea {
   font-size: 14px;
 }
 .single-testimonial img{
- text-align: center;
  font-size: 15px;
- height: 24px;
- width:50px;
-margin-bottom: 15px;
+ transform-style: preserve-3d;
+ width: auto;
+ text-align: center;
+ margin: auto;
+ margin-bottom: 15px;
 }
 .single-testimonial h6 {
   font-family: 'Montserrat', sans-serif;

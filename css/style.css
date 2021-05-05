@@ -1232,6 +1232,7 @@ gallary:hover{
 /* contact page */
 .mainhead{
   color: #000; 
+  text-align: center;
 }
 .frm h6{
   color: #000;
@@ -1242,14 +1243,32 @@ gallary:hover{
   cursor:pointer;
   margin: 10px;
 }
+.frmm label{
+  color: #000;
+}
+.frmm {
+  color: #000;
+}
+.textcls textarea{
+  color: #000;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
 
-/* .frmm{
-  background-image: url('../asset/images/SBE9ZU.webp');
+ .frmm{
+  background-image: url('../asset/images/contactform\ img.jpg');
   background-repeat: no-repeat;
   background-size:cover ;
 } */
 .tip{
   color: #000;
+}
+.fbtn{
+  color: #000;
+  background-color:gray;
+  width: 25%;
+  cursor: pointer;
 }
 
 

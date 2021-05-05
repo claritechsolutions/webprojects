@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class || Handstand</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" href="asset/images/flower.jpg" type="image/x-icon">
@@ -37,8 +38,9 @@
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <div class="content-wrapper">
                                 <div class="main-menu text-center">
+                                    <span class="bars" onclick="myFunction()">&#9776</span>
                                     <nav>
-                                        <ul>
+                                        <ul id="menu">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about-us.html">About us</a></li>
                                             <li><a href="menu.html">classes</a></li>
@@ -50,14 +52,26 @@
                                 </div>
                             </div>
                         </div>
+                    
                         <div class="col-md-2 col-sm-12 col-xs-12">
                             <div class="header-contact">
                                 <a class="banner-bttn" href="contact.html"><span>contact</span></a>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
+            <script>
+                function myFunction(){
+                    var x = document.getElementById("menu");
+                    if (x.style.display == "block"){
+                        x.style.display ="none";
+                    }else{
+                        x.style.display ="block";
+                    }
+                 }
+            </script>
         </header>
     </div>
 

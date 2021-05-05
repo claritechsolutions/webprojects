@@ -593,16 +593,16 @@ input, textarea {
 /*----caurosal-------*/
 
 .slider-c{
-  margin-left:10%;
-  width: 900px;
+  margin-left:5.5%;
+  width: 1000px;
   margin-bottom:40px ;
 
 }
 .single-testimonial {
   background: #5fc7ae none repeat scroll 0 0;
   color: #ffffff;
-  margin: 30px 85px 30px 85px;
-  padding: 20px 60px;
+  margin: 20px 85px 30px 85px;
+  padding: 40px 80px;
   position: relative;
   text-align: center;
 }
@@ -1055,6 +1055,7 @@ button {
   .pb-100 {
     padding-bottom: 100px;
   }
+
   /*testimonial section  */
   .testimonial .carousel {
     padding-bottom:50px;
@@ -1252,7 +1253,10 @@ gallary:hover{
 }
 
 
-/*---trainer area---*/
+/*----------------------------------------*/
+/* ---trainer area/ homepage---*/
+/*----------------------------------------*/
+
 .single-trainer, .blog-pic {
   position: relative;
   overflow: hidden;
@@ -1267,9 +1271,8 @@ gallary:hover{
   height: 100%;
   content: "";
   z-index: 99;
-  margin-top: -32px;
+  margin-top: -32px; 
 }
-
 .single-trainer {
   position:relative;
 }
@@ -1282,16 +1285,45 @@ gallary:hover{
 .single-trainer:hover{
       background-color: turquoise;
       cursor: zoom-in;
+      transform: scale(1.1);
+      transform-origin: 50% 65%;
+    transition: transform 3s, filter 3s ease-in-out;
+    filter: brightness(59%);
 }
 .single-trainer:hover .img-trainer{
       opacity: 0.3;
 }
-.img-trainerp{
-  opacity:1;
-  display: block;
-  transition: 0.5s ease-out;
-  backface-visibility: hidden;
+.trainer-hover h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  opacity:0px;
 }
+.trainer-hover ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+.trainer-hover ul li {
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+.trainer-hover ul li a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 28px;
+}
+
+
+
+
+
+
 
 /* slider carousel in index page */
 

@@ -249,7 +249,7 @@
         margin: auto;
         display: block;
         width: 80%;
-        max-width: 500px;
+        /* max-width: 500px; */
       }
       
       /* Caption of Modal Image */
@@ -257,7 +257,7 @@
         margin: auto;
         display: block;
         width: 80%;
-        max-width: 700px;
+        /* max-width: 700px; */
         text-align: center;
         color: #ccc;
         padding: 10px 0;
@@ -522,7 +522,7 @@
     margin-right: 20px;
     z-index: 2;
     position: relative;
-    width: 1160px;
+    /* width: 1160px; */
     height:200px;
 }
 .row {
@@ -596,8 +596,8 @@ input, textarea {
 /*----caurosal-------*/
 
 .slider-c{
-  margin-left:5.5%;
-  width: 1000px;
+  /* margin-left:5.5%; */
+  /* width: 1000px; */
   margin-bottom:40px ;
 
 }
@@ -1163,7 +1163,7 @@ button {
         top: 0;
         left: 0;
         bottom: 0;
-        width: 550px;
+        /* width: 550px; */
         display: block;
         margin: 30px auto;
         text-align: center;
@@ -1358,7 +1358,7 @@ gallary:hover{
 color: black;
 right: 58%;
 text-align: center;
-max-width: 900px;
+/* max-width: 900px; */
 left: auto;
 top: auto;
 }

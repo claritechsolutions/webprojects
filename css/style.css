@@ -439,6 +439,7 @@
 }
 .table-body ul{
     margin: 0;
+    margin-right: 20px;
     padding-top: 33px;
     padding-bottom: 30px;
     list-style: none;
@@ -509,7 +510,7 @@
 .graff .tablee{
    position: absolute;
    margin-top:8px;
-   left:40%;
+   left:35%;
    z-index: 1;
    background-color: white;
 
@@ -518,11 +519,10 @@
     background: #5FC7AE;
     padding: 35px 35px;
     margin-top: -105px;
-    margin-left:75px;
+    margin-left:70px;
     margin-right: 20px;
     z-index: 2;
     position: relative;
-    /* width: 1160px; */
     height:200px;
 }
 .row {
@@ -596,8 +596,7 @@ input, textarea {
 /*----caurosal-------*/
 
 .slider-c{
-  /* margin-left:5.5%; */
-  /* width: 1000px; */
+  margin-left:5.5%;
   margin-bottom:40px ;
 
 }

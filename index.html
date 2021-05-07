@@ -26,6 +26,7 @@
 
 
 <body>
+    
     <!-- Header Area Start -->
 
     <div class="header-section">
@@ -36,17 +37,19 @@
                         <div class="col-md-2 col-sm-12 col-xs-12">
                             <div class="logo">
                                 <a href="index.html"><img src="asset/images/logo.png" alt="COFFEE" /></a>
-                            </div>
+                               </div>
                         </div>
+                        <span class="bars" onclick="myFunction()">&#9776</span>
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <div class="content-wrapper">
                                 <div class="main-menu text-center">
+                                   
                                     <nav>
-                                        <ul>
+                                        <ul id="menu">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="about-us.html">About us</a></li>
                                             <li><a href="classes.html">classes</a></li>
-                                            <li><a href="gallery.html">gallery</a></li>
+                                            <li><a href="reservation.html">gallery</a></li>
                                             <li><a href="blog.html">blog</a></li>
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
@@ -59,14 +62,25 @@
                                 <a class="banner-bttn" href="contact.html"><span>contact</span></a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("menu");
+                    if (x.style.display == "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
         </header>
     </div>
 
 
-
+    <!---slider-i-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -696,10 +710,10 @@
      </section>
     </section>
 
-   
 
+    
     <!-- Newsletter Area  -->
-    <section class="newsletter-a bg-gray">
+    <section class="newsletter-a">
         <div class="container-fluid">
             <div class="graff">
 
@@ -729,9 +743,9 @@
                 <div class="col-xs-12">
                     <div class="newsletter-w fix">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 sub">
                                 <div class="newsletter-c section-title text-center">
-                                    <h2>subscribe now for latest update!</h2>
+                                    <h3>subscribe now for latest update!</h3>
                                     <div class="newsletterr-form">
                                         <form action="#" id="m-form" class="mc-form fix" novalidate="true">
                                             <input id="c-email" type="email" name="EMAIL"
@@ -747,11 +761,14 @@
                     </div>
                 </div>
 
-
             </div>
         </div>
 
     </section>
+
+
+   
+
 
 
     <!--footer-section-->

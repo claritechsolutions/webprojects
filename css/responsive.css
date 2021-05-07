@@ -1,44 +1,45 @@
 /*-----media queri for classes-page----*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1191px) {
     .bars {
         position: absolute;
        display:block;
         top:0px;
         right:0px;
         margin:10px;
-        padding:15px;
+        padding:7px 10px;
         font-size: 28px;
         color:white;
         background-color:rgb(105, 99, 99);
-}
-    .logo img {
-        display:block;
-        margin-left:0px;
-        margin-bottom: 20px;
-    }
-    .main-menu ul li {
-        display:block;
-        font-size: 16px;
-        padding:0px;
-    }
-    #menu{
-        display: none;
-    }
-    .header-contact > a{
-        display: none;
-    }
+         }
+         .logo img {
+            display:block;
+            margin-left:0px;
+            margin-bottom: 20px;
+        }
+        .main-menu {
+            float:left;
+            margin-left:0px;
+        }
+        .main-menu ul li {
+            display:block;
+            font-size: 16px;
+            padding:0px;
+        }
+        #menu{
+            display: none;
+        }
+        .header-contact > a{
+            display: none;
+        }
 
-    /*--bannar-section--*/
-
-    .con-bann{
-        padding:2px;
-        box-sizing: border-box;
-    }
-
+        
     /*---Our Classes----*/
     .card .cardd .card-img-top{
         width:100%;
+    }
+    .modal-content {
+        width: 20%;
     }
     .our .sim {
         font-size: 18px;
@@ -59,15 +60,13 @@
     .card-p p{
         font-size: 18px;
     }
-
-
+    
     /*----Class Schedule section----*/
     .c-schedule p {
         font-size: 18px;
         font-family: 'Montserrat', sans-serif;
     }
-
-
+    
     /*-----pricing table-----*/
     .section-title p {
         font-size: 18px;
@@ -77,21 +76,41 @@
         font-size: 18px;
         display:block;
         margin-right:20px;
-        border-bottom: 1px solid #EAE8E8;
     }
     
     /*-----testimonial area------*/
     .single-testimonial p {
-            font-size: 16px;
-    }
+        font-size: 16px;
+     }
     .single-testimonial img{
         height: 20px;
-    }
-    
+     }
+
     .single-testimonial h6 {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+       font-size: 18px;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 400;
+     }
+    
+        
+        
+        }
+
+
+@media only screen and (max-width: 768px) {
+   
+  
+    /*--bannar-section--*/
+
+    .con-bann{
+        padding:2px;
+        box-sizing: border-box;
+    }
+    .myclass h3{
+        margin-left:15px;
+    }
+    .myclass  ul {
+      margin-left:20px;
     }
 
 /*---- Newsletter Area  ----*/
@@ -119,8 +138,11 @@
 @media only screen and (max-width: 320px) {
     
     /*--bannar-section--*/
-    .myclass h1{
-        font-size:10px;
+    .myclass h3{
+        margin-left:15px;
+    }
+    .myclass  ul {
+      margin-left:20px;
     }
     /*---Our Classes----*/
     
@@ -185,5 +207,38 @@
         margin: 20px 20px 30px 20px;
         padding: 15px 35px;
     }
+    
+/*---- Newsletter Area  ----*/
+
+.tablee{
+    width:0%;
+    padding: 0px 0px;
+}
+.sub h3 {
+    font-size: 16px;
+}
+#m-form > input {
+    font-size: 12px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top:0px;
+}
+#m-form .defaultbtn {
+    position: absolute;
+    right:70px;
+    top:90px;
+    padding: 0 10px;
+}
+.newsletter-w {
+    
+    padding: 20px 20px;
+    margin-top: -105px;
+    margin-left: 60px;
+    margin-right: 20px;
+    height:150px;
+}
+.newsletterr-form{
+    display:block;
+}
 
 }

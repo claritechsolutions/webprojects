@@ -242,3 +242,24 @@
 }
 
 }
+
+/* media queri for about us page  */
+@media only screen and (max-width: 320px){
+    .carousel-caption h5{
+        font-size: 8px;
+       
+        }
+        .carousel-caption .banner-btn{
+            font-size:10px;
+            padding: 0 10px;
+            line-height: 25px;
+
+        }
+        .carousel-caption h1{
+            font-size: 20px;
+        }
+        .item .carousel-caption p{
+            font-size: 8px;
+            line-height: 10px;
+        }
+}

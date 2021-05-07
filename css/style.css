@@ -1415,3 +1415,20 @@ text-transform: uppercase;
 transition: all 0.5s ease 0s;
 }
 
+.item .carousel-caption {
+  text-align: left;
+  left: 10%;
+}
+a.left.carousel-control{
+  color: none;
+}
+.icon-prev  {
+  left: 25%;
+
+}
+.carousel-caption {
+  left: 10%;
+}
+.slider-area .slide-section .item h5{
+  animation-delay: 600ms;
+}

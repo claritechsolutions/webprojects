@@ -101,7 +101,13 @@
    
   
     /*--bannar-section--*/
-
+    .bg-grey{
+        background-color:  gainsboro;;
+    }
+    #menu{
+      margin: 0;
+      padding: 0;
+    }
     .con-bann{
         padding:2px;
         box-sizing: border-box;
@@ -262,4 +268,5 @@
             font-size: 8px;
             line-height: 10px;
         }
+
 }

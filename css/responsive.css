@@ -17,6 +17,10 @@
             margin-left:0px;
             margin-bottom: 20px;
         }
+        #menu{
+            margin: 0;
+            padding: 0;
+          }
         .secondcol{
             padding: 0px;
             margin: 0px;
@@ -110,15 +114,16 @@
     .main-menu ul li {
         font-size:18px;
     }
+    #menu{
+        margin: 0;
+        padding: 0;
+      }
   
     /*--bannar-section--*/
     .bg-grey{
         background-color:  gainsboro;;
     }
-    #menu{
-      margin: 0;
-      padding: 0;
-    }
+   
     .con-bann{
         padding:2px;
         box-sizing: border-box;

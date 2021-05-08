@@ -1,6 +1,6 @@
 /*-----media queri for classes-page----*/
 
-@media only screen and (max-width: 1191px) {
+@media only screen and (max-width:1024px) {
     .bars {
         position: absolute;
        display:block;
@@ -17,15 +17,23 @@
             margin-left:0px;
             margin-bottom: 20px;
         }
+        .secondcol{
+            padding: 0px;
+            margin: 0px;
+            float:left;
+           
+        }
         .main-menu {
             float:left;
             margin-left:0px;
+           
         }
         .main-menu ul li {
             display:block;
             font-size: 16px;
             padding:0px;
         }
+       
         #menu{
             display: none;
         }
@@ -99,6 +107,9 @@
 
 @media only screen and (max-width: 768px) {
    
+    .main-menu ul li {
+        font-size:18px;
+    }
   
     /*--bannar-section--*/
     .bg-grey{

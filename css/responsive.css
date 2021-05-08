@@ -112,7 +112,13 @@
     }
   
     /*--bannar-section--*/
-
+    .bg-grey{
+        background-color:  gainsboro;;
+    }
+    #menu{
+      margin: 0;
+      padding: 0;
+    }
     .con-bann{
         padding:2px;
         box-sizing: border-box;
@@ -251,5 +257,27 @@
 .newsletterr-form{
     display:block;
 }
+
+}
+
+/* media queri for about us page  */
+@media only screen and (max-width: 320px){
+    .carousel-caption h5{
+        font-size: 8px;
+       
+        }
+        .carousel-caption .banner-btn{
+            font-size:10px;
+            padding: 0 10px;
+            line-height: 25px;
+
+        }
+        .carousel-caption h1{
+            font-size: 20px;
+        }
+        .item .carousel-caption p{
+            font-size: 8px;
+            line-height: 10px;
+        }
 
 }

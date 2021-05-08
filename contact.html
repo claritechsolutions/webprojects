@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact || Handstand</title>
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="asset/images/flower.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -25,17 +29,16 @@
                                 <a href="index.html"><img src="asset/images/logo.png" alt="COFFEE" /></a>
                             </div>
                         </div>
+                        <span class="bars" onclick="myFunction()">&#9776</span>
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <div class="content-wrapper">
                                 <div class="main-menu text-center">
                                     <nav>
-                                        <ul>
+                                        <ul id="menu">
                                             <li><a href="./index.html">Home</a></li>
                                             <li><a href="about-us.html">About us</a></li>
                                             <li><a href="./classes.html">classes</a></li>
                                             <li><a href="./gallery.html">gallery</a></li>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="./contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -49,6 +52,16 @@
                     </div>
                 </div>
             </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("menu");
+                    if (x.style.display == "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
         </header>
     </div>
     <!-- Banner-Area -->
@@ -60,9 +73,9 @@
                      <div class="my-5 myclass">
                             <h3>CONTACT</h3>
                                 <ul class="bread-c">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li class="r-icon"><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
-                                    <span><li><a href="#">Contact</a></li></span>
+                                    <span><li><a href="contact.html">Contact</a></li></span>
                                 </ul>
             
                          </div>
@@ -71,6 +84,8 @@
             </div>
         </div>
     </section>
+    <br>
+    <br>
     <!-- Form-Area -->
     <section class="bg-light classes frmm">
     <div class="container frm">
@@ -107,19 +122,19 @@
                 <form>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" class="form-control">
+                    <input type="email" id="email" name="email" class="form-control email-fc">
                 </div>
-                <input type="button" name="button" value="Subscribe" class="fbtn">
+                <input type="button" name="button" value="Subscribe" class="fbtn sub">
                 <h6>Our Location</h6>
                <div class="form-group">
                 <label for="reachus">Reach Us</label>
-                <div class="mapp1">
+                <div class="mapp12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30411.382324361155!2d75.30109376425337!3d17.677476625930137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4181b8db52943%3A0x1ab147f5432da578!2sPandharpur%2C%20Maharashtra%20413304!5e0!3m2!1sen!2sin!4v1619765847554!5m2!1sen!2sin" 
                 width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>   
             </div>
                <div class="form-group">
-                   <label for="stayintouch">Stay In Touch</label><br>
+                   <label for="stayintouch" class="socih">Stay In Touch</label><br>
                    <i class="fa fa-facebook soci" aria-hidden="true"></i>
                    <i class="fa fa-twitter soci" aria-hidden="true"></i>
                    <i class="fa fa-pinterest-p soci" aria-hidden="true"></i>
@@ -219,9 +234,9 @@
                 <div class="col-xs-12">
                     <div class="newsletter-w fix">
                         <div class="row">
-                            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 sub">
                                 <div class="newsletter-c section-title text-center">
-                                    <h2>subscribe now for latest update!</h2>
+                                    <h3>subscribe now for latest update!</h3>
                                     <div class="newsletterr-form">
                                         <form action="#" id="m-form" class="mc-form fix" novalidate="true">
                                             <input id="c-email" type="email" name="EMAIL"

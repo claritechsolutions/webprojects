@@ -101,7 +101,13 @@
    
   
     /*--bannar-section--*/
-
+    .bg-grey{
+        background-color:  gainsboro;;
+    }
+    #menu{
+      margin: 0;
+      padding: 0;
+    }
     .con-bann{
         padding:2px;
         box-sizing: border-box;
@@ -240,11 +246,8 @@
 .newsletterr-form{
     display:block;
 }
-
-}
-
-/* media queri for about us page  */
-@media only screen and (max-width: 320px){
+/* media queri for about us page 
+@media only screen and (max-width: 320px){ */
     .carousel-caption h5{
         font-size: 8px;
        
@@ -262,40 +265,32 @@
             font-size: 8px;
             line-height: 10px;
         }
-}
-
-/* media query for gallery page */
-@media only screen and (max-width:320px){
-    .gallary{
-        background-color: white;
-    }
+        /* media query for gallery page */
+/* @media only screen and (max-width:320px){ */
     .f1, .f2, .f3{
         /* margin: 10px; */
         margin-bottom: 1rem;
     }
-    .colr{
+    .colr, .socih .gallary{
         background-color: white;
     }
-}
-/* media query for contact page */
-@media only screen and (max-width:320px){
+
+/* media query for contact page
+@media only screen and (max-width:320px){ */
     .fbtn{
         width:100%
     }
     .sub{
         width:222%
     }
-    .soci{
-        color: white;
-        font-size: 10px;
-    }
     .email-fc{
         width: 222%;
-    }
-    .socih{
-        background-color: white;
     }
     .mapp12{
         width: 222%;
     }
+
+
+
 }
+

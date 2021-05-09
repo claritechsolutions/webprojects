@@ -262,11 +262,8 @@
 .newsletterr-form{
     display:block;
 }
-
-}
-
-/* media queri for about us page  */
-@media only screen and (max-width: 320px){
+/* media queri for about us page 
+@media only screen and (max-width: 320px){ */
     .carousel-caption h5{
         font-size: 8px;
        
@@ -284,5 +281,32 @@
             font-size: 8px;
             line-height: 10px;
         }
+        /* media query for gallery page */
+/* @media only screen and (max-width:320px){ */
+    .f1, .f2, .f3{
+        /* margin: 10px; */
+        margin-bottom: 1rem;
+    }
+    .colr, .socih .gallary{
+        background-color: white;
+    }
+
+/* media query for contact page
+@media only screen and (max-width:320px){ */
+    .fbtn{
+        width:100%
+    }
+    .sub{
+        width:222%
+    }
+    .email-fc{
+        width: 222%;
+    }
+    .mapp12{
+        width: 222%;
+    }
+
+
 
 }
+

@@ -123,6 +123,10 @@
     .bg-grey{
         background-color:  gainsboro;;
     }
+     #main-menu{
+        margin: 0;
+        padding: 0;
+    }
    
     .con-bann{
         padding:2px;
@@ -271,11 +275,16 @@
         font-size: 8px;
        
         }
-        .carousel-caption .banner-btn{
+        .carousel-caption  .banner-btn{
             font-size:10px;
             padding: 0 10px;
             line-height: 25px;
 
+        }
+        .left .contact-section .banner-btn{
+            font-size:10px;
+            padding: 0 10px;
+            line-height: 25px;
         }
         .carousel-caption h1{
             font-size: 20px;
@@ -284,5 +293,22 @@
             font-size: 8px;
             line-height: 10px;
         }
-
+       .left .contact-section p{
+           font-size: 11px;
+       }
+       .left .contact-section h2{
+           font-size: 24px;
+       }
+       .text-center .centered{
+           font-size: 20px;
+       }
+       .text-center .centered p{
+        font-size: 11px;
+       }
+       .event .event-wrapper h3 {
+           font-size: 14px;
+       }
+       .section-title p{
+           font-size: 11px;
+       }
 }
